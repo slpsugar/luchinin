@@ -14,7 +14,7 @@
 }
 
 .bg-image {
-  background-image: url("images/cover.jpeg");
+  background-image: url("images/bg-small.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,8 +23,8 @@
 }
 
 .blur {
-  background: rgba(244, 244, 244, 0.08);
-  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(2px);
   height: 100vh;
   width: 100vw;
 }
@@ -47,3 +47,70 @@
   text-align: center;
 }
 
+.name {
+  background-color: none;
+  color: black;
+  font-family: Neue Montreal, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  text-align: left;
+}
+
+.bio {
+  background-color: none;
+  color: black;
+  font-family: Neue Montreal, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  text-align: left;
+}
+
+.insta {
+  background-color: none;
+  color: black;
+  font-family: Neue Montreal, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  text-align: left;
+}
+
+.e-mail {
+  background-color: none;
+  color: black;
+  font-family: Neue Montreal, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  border: none;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  text-align: left;
+}
