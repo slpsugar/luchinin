@@ -1,8 +1,5 @@
-@font-face {
-  font-family: "Monument Extended";
-  src: url("fonts/MonumentExtended-Regular.woff") format("woff"), url("fonts/MonumentExtended-Regular.woff2") format ("woff2");
-  font-weight: normal;
-  font-style: normal;
+body{
+  margin:0;
 }
 
 @font-face {
@@ -14,7 +11,7 @@
 }
 
 .bg-image {
-  background-image: url("images/bg-small.svg");
+  background-image: url("images/bg-big.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +27,12 @@
 }
 
 .btn-main {
-  background-color: rgba(0,0,0, 0);
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   color: black;
   font-family: Neue Montreal, sans-serif;
   font-style:normal;
@@ -38,8 +40,7 @@
   font-size: 200px;
   line-height: 1;
   letter-spacing: 1;
-  /* text-transform: lowercase; */
-  border: none;
+  text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,7 +49,7 @@
 }
 
 .name {
-  background-color: none;
+  background-color: transparent;
   color: black;
   font-family: Neue Montreal, sans-serif;
   font-style:normal;
@@ -57,7 +58,11 @@
   line-height: 1;
   letter-spacing: 1;
   text-transform: uppercase;
+  background-repeat:no-repeat;
   border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   position: absolute;
   top: 5%;
   left: 5%;
@@ -65,7 +70,7 @@
 }
 
 .bio {
-  background-color: none;
+  background-color: transparent;
   color: black;
   font-family: Neue Montreal, sans-serif;
   font-style:normal;
@@ -74,7 +79,11 @@
   line-height: 1;
   letter-spacing: 1;
   text-transform: uppercase;
+  background-repeat:no-repeat;
   border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   position: absolute;
   top: 5%;
   left: 35%;
@@ -82,7 +91,7 @@
 }
 
 .insta {
-  background-color: none;
+  background-color: transparent;
   color: black;
   font-family: Neue Montreal, sans-serif;
   font-style:normal;
@@ -91,7 +100,11 @@
   line-height: 1;
   letter-spacing: 1;
   text-transform: uppercase;
+  background-repeat:no-repeat;
   border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   position: absolute;
   top: 5%;
   left: 60%;
@@ -99,7 +112,7 @@
 }
 
 .e-mail {
-  background-color: none;
+  background-color: transparent;
   color: black;
   font-family: Neue Montreal, sans-serif;
   font-style:normal;
@@ -108,9 +121,14 @@
   line-height: 1;
   letter-spacing: 1;
   text-transform: uppercase;
+  background-repeat:no-repeat;
   border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   position: absolute;
   top: 5%;
   left: 90%;
   text-align: left;
 }
+
