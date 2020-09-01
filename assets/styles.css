@@ -73,7 +73,24 @@ body{
   top: 5%;
 }
 
-
+.menu-fixed {
+  background-color: transparent;
+  color: black;
+  font-family: Monument, sans-serif;
+  font-style:normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:crosshair;
+  overflow: hidden;
+  outline:none;
+  position: fixed;
+  top: 5%;
+}
 
 .wrapper {
   display: flex;
@@ -99,31 +116,33 @@ body{
 }
 
 .title {
-  text-transform: uppercase;
+  margin-top:120px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start ;
   text-align: center;
-  color: #000000;
+  text-transform: uppercase;
+  color: black;
   position: absolute;
   font-family: Monument Bold, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
   width: 1em;
-  letter-spacing: 120px;
-  word-wrap: break-word;
-  margin-top:120px;
+  height:780px;
+  word-break: break-word;
+  float: left;
+  letter-spacing: 1em;
+  white-space: pre-wrap
 }
 
-.t-one {
-  /* left: 49px; */
+.t1 {
+  left: 49px;
   line-height: 178%;
 }
 
-.t-two {
+.t2 {
   position: absolute;
-  width: 20px;
-  height: 780px;
   left: 170px;
   line-height: 312.5%;
 }
@@ -136,59 +155,3 @@ body{
   top: 600px;
 }
 
-
-.parent{
-  display:flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  height: 120px;
-}
-
-.child {
-  border-style: solid;
-  border-color: black;
-  width: 120px;
-  height: 780px;
-  /* padding: 0px; */
-   
-}
-.child + .child {
-  margin-left: 0px;
-}
-
-.row {
-  display:flex;
-  margin: 0px;
-}
-
-.col {
-  display:flex;
-  margin-top: 120px;
-  width:120px;
-}
-
-.box {
-  border:transparent;
-  height:120px;
-  width:120px;
-  font-family: Monument Bold;
-
-  position: absolute;
-  width: 22px;
-  height: 780px;
-  left: 49px;
-  top: 120px;
-
-  font-family: Monument;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 178%;
-  /* or 36px */
-
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #000000;
-}
