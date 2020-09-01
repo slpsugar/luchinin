@@ -1,45 +1,51 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
 body{
   margin:0;
 }
 
 @font-face {
-  font-family:"Neue Montreal";
-  src:url("fonts/NeueMontreal-Bold.woff") format("woff"), url("fonts/NeueMontreal-Bold.woff2") format("woff2"),
-  url("fonts/NeueMontreal-Bold.eot") format("eot");
+  font-family:"Monument";
+  src:url("fonts/MonumentExtended-Regular.woff") format("woff"), url("fonts/MonumentExtended-Regular.woff2") format("woff2"),
+  url("fonts/MonumentExtended-Regular.eot") format("eot");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"Monument Bold";
+  src:url("fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("fonts/MonumentExtended-Ultrabold.woff2") format("woff2"),
+  url("fonts/MonumentExtended-Ultrabold.eot") format("eot");
   font-weight:bold;
   font-style:normal;
 }
 
 .bg-image {
-  background-image: url("images/bg-big.svg");
+  background-image: url("images/2019/Автопортрет_20х30_акрил\ на\ картоне.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100%;
-}
-
-.blur {
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(1.5px);
-  height: 100vh;
-  width: 100vw;
+  position: absolute;
+  left: -27.57%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 }
 
 .btn-main {
   background-color: transparent;
   background-repeat:no-repeat;
   border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
+  cursor: crosshair;
   color: black;
-  font-family: Neue Montreal, sans-serif;
+  font-family: Monument, sans-serif;
   font-style:normal;
-  font-weight: bold;
+  font-weight:normal;
   font-size: 200px;
-  line-height: 1;
-  letter-spacing: 1;
   text-transform: uppercase;
   position: absolute;
   top: 50%;
@@ -48,87 +54,141 @@ body{
   text-align: center;
 }
 
-.name {
+.menu {
   background-color: transparent;
   color: black;
-  font-family: Neue Montreal, sans-serif;
+  font-family: Monument, sans-serif;
   font-style:normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 20px;
   line-height: 1;
   letter-spacing: 1;
   text-transform: uppercase;
   background-repeat:no-repeat;
   border: none;
-  cursor:pointer;
+  cursor:crosshair;
   overflow: hidden;
   outline:none;
   position: absolute;
   top: 5%;
-  left: 5%;
-  text-align: left;
 }
 
-.bio {
-  background-color: transparent;
-  color: black;
-  font-family: Neue Montreal, sans-serif;
-  font-style:normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: 1;
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width:400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+.title {
   text-transform: uppercase;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
   position: absolute;
-  top: 5%;
-  left: 35%;
-  text-align: left;
-}
-
-.insta {
-  background-color: transparent;
-  color: black;
-  font-family: Neue Montreal, sans-serif;
-  font-style:normal;
-  font-weight: bold;
+  font-family: Monument Bold, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
-  line-height: 1;
-  letter-spacing: 1;
-  text-transform: uppercase;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  position: absolute;
-  top: 5%;
-  left: 60%;
-  text-align: left;
+  width: 1em;
+  letter-spacing: 120px;
+  word-wrap: break-word;
+  margin-top:120px;
 }
 
-.e-mail {
-  background-color: transparent;
-  color: black;
-  font-family: Neue Montreal, sans-serif;
-  font-style:normal;
-  font-weight: bold;
+.t-one {
+  /* left: 49px; */
+  line-height: 178%;
+}
+
+.t-two {
+  position: absolute;
+  width: 20px;
+  height: 780px;
+  left: 170px;
+  line-height: 312.5%;
+}
+
+.preview {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 0px;
+  top: 600px;
+}
+
+
+.parent{
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 120px;
+}
+
+.child {
+  border-style: solid;
+  border-color: black;
+  width: 120px;
+  height: 780px;
+  /* padding: 0px; */
+   
+}
+.child + .child {
+  margin-left: 0px;
+}
+
+.row {
+  display:flex;
+  margin: 0px;
+}
+
+.col {
+  display:flex;
+  margin-top: 120px;
+  width:120px;
+}
+
+.box {
+  border:transparent;
+  height:120px;
+  width:120px;
+  font-family: Monument Bold;
+
+  position: absolute;
+  width: 22px;
+  height: 780px;
+  left: 49px;
+  top: 120px;
+
+  font-family: Monument;
+  font-style: normal;
+  font-weight: 800;
   font-size: 20px;
-  line-height: 1;
-  letter-spacing: 1;
-  text-transform: uppercase;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  position: absolute;
-  top: 5%;
-  left: 90%;
-  text-align: left;
-}
+  line-height: 178%;
+  /* or 36px */
 
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
