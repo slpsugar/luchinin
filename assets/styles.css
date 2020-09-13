@@ -168,8 +168,7 @@ body{
 .div17 { grid-area: 2 / 16 / 3 / 17; }
 .div18 { grid-area: 2 / 17 / 3 / 18; }
 
-
-p {
+.parent p {
   display: flex;
   justify-content: left;
   position: relative;
@@ -191,7 +190,6 @@ p {
   vertical-align: text-top;
   z-index: -1;
 }
-
 
 .preview {
   display:flex;
