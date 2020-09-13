@@ -59,10 +59,13 @@ body{
 }
 
 
+
+
 a{
     display:block;
     text-decoration: none;
     color:inherit;
+    padding: 20px;
 }
 
 
@@ -71,11 +74,7 @@ a:active {
     position:relative;
     bottom:20px;
     color:#D71A00;
-    font-family: Monument, sans-serif;
     text-transform: lowercase;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
     text-decoration: underline;
     cursor:crosshair;
 }
@@ -124,6 +123,7 @@ a:active {
   
 .col-3{
     display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
     width: calc(0.5/ 12 * 100%);
 }
@@ -133,20 +133,21 @@ a:active {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    object-fit: contain;
+    object-fit: cover;
     /* object-position: right; */
     mix-blend-mode:luminosity;
 }
 
 .col-4{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     width: calc(1.5 / 12 * 100%);;
 }
   
 .col-5{
     display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
     width: calc(0.5 / 12 * 100%);
 }
