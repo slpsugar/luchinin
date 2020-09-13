@@ -98,6 +98,7 @@ a{
   display:block;
   text-decoration: none;
   color:inherit;
+  padding:50px;
 }
 
 a:hover,
@@ -106,4 +107,12 @@ a:active {
   text-transform: lowercase;
   text-decoration: underline;
   cursor:crosshair;
+}
+
+div.main a:hover {
+  color:white;
+  cursor:crosshair;
+  text-transform: uppercase;
+  cursor: crosshair;
+  text-decoration: none;
 }

@@ -75,6 +75,14 @@ a:active {
     cursor:crosshair;
 }
  
+div.nav-3 a{
+    position:relative;
+    bottom:20px;
+    color:#D71A00;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor:crosshair;
+}
 
 .archive{
     display: flex;
