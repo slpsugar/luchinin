@@ -67,8 +67,6 @@ a{
 
 a:hover,
 a:active {
-    position:relative;
-    bottom:20px;
     color:#D71A00;
     text-transform: lowercase;
     text-decoration: underline;
