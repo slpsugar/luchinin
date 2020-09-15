@@ -93,6 +93,7 @@ div.nav-2 a{
   flex-wrap: nowrap;
   min-height: 100vh;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .col {
@@ -117,7 +118,6 @@ p {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(215, 26, 0, 0.3);
 
-  /* -webkit-text-stroke: 1px solid rgba(215, 26, 0, 0.5); */
   font-family: MBold, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -138,3 +138,49 @@ p {
   z-index: 1;
 }
 
+.arrow-left{
+  display:flex;
+  position:fixed;
+  justify-content: center;
+
+  padding:0;
+  margin:0;
+
+  font-size: 100%;
+
+  cursor: crosshair;
+  /* background-image: none; */
+  background-color:transparent;
+  border:none;
+
+  z-index:20;
+  left:0;
+  top: 120px;
+  height:100%;
+  width:40px;
+
+}
+
+.arrow-right{
+  display:flex;
+  position:fixed;
+  justify-content: center;
+
+  padding:0;
+  margin:0;
+
+  font-size: 100%;
+
+  cursor: crosshair;
+
+/* background-image: none; */
+  background-color:transparent;
+  border:none;
+
+  z-index:20;
+  right:0;
+  top: 120px;
+  height:100%;
+  width:40px;
+
+}
