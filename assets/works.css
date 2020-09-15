@@ -5,9 +5,9 @@
 }
 
 
-html {
+/* html {
   overflow:hidden;
-}
+} */
 
 body{
   margin:0px;
@@ -83,9 +83,9 @@ div.nav-2 a{
 }
 
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display:none;
-}
+} */
 
 
 .grid {
@@ -98,8 +98,8 @@ div.nav-2 a{
 .col {
   width: calc(1/12*100%);
   min-width:calc(1/12*100%);
-  max-height: 100vh;
-  overflow: auto;
+  /* max-height: 100vh; */
+  /* overflow: auto; */
 }
 
 
