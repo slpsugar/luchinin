@@ -69,7 +69,7 @@ a:hover,
 a:active {
     color:#D71A00;
     text-transform: lowercase;
-    text-decoration: underline;
+    text-decoration: none;
     cursor:crosshair;
 }
  
@@ -112,15 +112,15 @@ div.nav-3 a{
 .col-1{
     display:flex;
     align-items: flex-start;
-    justify-content: flex-end;
-    width: calc(0.5 / 12 * 100%);
+    justify-content: center;
+    width: calc(1 / 12 * 100%);
 }
   
 .col-2{
     display:flex;
     align-items: flex-start;
     justify-content: flex-end;
-    width: calc(9 / 12 * 100%);
+    width: calc(8 / 12 * 100%);
 }
   
 .col-3{
@@ -150,8 +150,8 @@ div.nav-3 a{
 .col-5{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    width: calc(0.5 / 12 * 100%);
+    justify-content: center;
+    width: calc(1 / 12 * 100%);
 }
   
   
