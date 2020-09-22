@@ -63,6 +63,7 @@ body{
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+  transition: color 0.7s ease-in-out;
 }
 
 
@@ -99,13 +100,14 @@ a{
   text-decoration: none;
   color:inherit;
   padding:50px;
+  transition: color 0.7s ease-in-out, text-transform 0.7s ease-in-out;
 }
 
 a:hover,
 a:active {
   color:white;
   text-transform: lowercase;
-  text-decoration: underline;
+  text-decoration: none;
   cursor:crosshair;
 }
 
