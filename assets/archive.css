@@ -126,8 +126,8 @@ div.nav-3 a{
     width: calc(8 / 12 * 100%);
 }
 
-.row p:hover,
-.row p:active{
+.col-2 p:hover,
+.col-2 p:active{
     color:#D71A00;
     text-decoration: none;
     cursor:crosshair;
