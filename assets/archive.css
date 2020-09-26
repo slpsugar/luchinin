@@ -220,7 +220,6 @@ div.nav-3 a{
     justify-content: flex-end;
     align-items: flex-end;
     bottom:0;
-    padding-left:10%;
 }
 
 .full-col2{
@@ -228,11 +227,10 @@ div.nav-3 a{
     position: relative;
     justify-content: left;
     align-self: flex-end;
-    width: 50%;
+    /* width: 50%; */
+    height:100%;
+    object-fit: contain;
+    bottom:0;
     margin-left: 15px;
 }
 
-.full-col2 img {
-    height:80vh;
-    object-fit: contain;
-}
