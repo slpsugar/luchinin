@@ -9,3 +9,5 @@ const aright = document.querySelector (".aright");
 aright.onclick=function () {
 	document.querySelector (".grid").scrollLeft +=1500;
 }
+
+
