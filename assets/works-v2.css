@@ -6,6 +6,7 @@
 
 html{
     font-size: calc(10/1440*100vw);
+    /* overflow: hidden; */
 }
 
 body{
@@ -25,10 +26,6 @@ body{
     src:url("fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("fonts/MonumentExtended-Ultrabold.woff2") format("woff2");
     font-weight:bold;
     font-style:normal;
-}
-
-::-webkit-scrollbar {
-    display:none;
 }
 
 .nav {
@@ -85,9 +82,9 @@ div.nav-2 a{
 }
   
   
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display:none;
-}
+} */
 
 .works{
     display: flex;
@@ -95,6 +92,10 @@ div.nav-2 a{
     background-color: maroon;
     width: 100%;
     padding-bottom: 10px;
+
+    /* flex-wrap: nowrap;
+    min-height: 100vh;
+    overflow: auto; */
 }
 
 .left{
@@ -102,6 +103,9 @@ div.nav-2 a{
     position: relative;
     width: 50%;
     background-color: lawngreen;
+
+    /* max-height: 100vh;
+    overflow: auto; */
 }
  
 .right{
@@ -116,7 +120,7 @@ div.nav-2 a{
     position: relative;
     flex-direction: column-reverse;
     width: 100%;
-    margin-top:80px;
+    margin-top:8rem;
     cursor:crosshair;
 }
   
