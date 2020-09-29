@@ -91,17 +91,12 @@ div.nav-2 a{
     position: absolute;
     width: 100%;
     max-height:100vh;
-    padding-bottom: 2rem;
 }
 
 .left{
     display: flex;
     position: relative;
     width: 50%;
-    background-color: lawngreen;
-
-    /* max-height: 100vh;
-    overflow: auto; */
 }
 
 .row{
@@ -126,7 +121,7 @@ div.nav-2 a{
     text-transform: lowercase;
     font-style: normal;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-block-end: 0;
 }
   
@@ -136,7 +131,6 @@ div.nav-2 a{
     align-items: flex-end;
     justify-content: center;
     width: 15%;
-    border-right: maroon 1px solid;
 }
   
 .col-2{
@@ -145,7 +139,6 @@ div.nav-2 a{
     align-items: flex-end;
     justify-content: flex-start;
     width: 70%;
-    border-right: maroon 1px solid;
 }
 
 .col-2 p:hover,
@@ -164,18 +157,6 @@ div.nav-2 a{
     width: 15%;
 }
   
-
- 
-.right{
-    display: block;
-    position: relative;
-    width: 50%;
-    max-height:100vh;
-    background-color: lightsalmon;
-    margin-top:8rem;
-    padding:2rem;
-}
-
 /* .col-3{
     display: block;
     position: relative;
@@ -193,37 +174,39 @@ div.nav-2 a{
     width: calc(1.5 / 12 * 100%);
 } */
 
-#show-1{
-    opacity: 0;
+.right{
+    display: flex;
+    position: relative;
+    width: 50%;
+    max-height:100vh;
+    /* background-color: #D71A00; */
+    margin-top:8rem;
+    padding:2rem;
 }
 
-#show-1:hover{
-    opacity:1;
+#img001{
+    position:absolute;
+    top:15rem;
+    left:10rem;
+    opacity:0;
 }
 
-.row-32 p:hover ~ .img001
-{display:block;}
+#img002{
+    position:absolute;
+    top:3rem;
+    left:25rem;
+    opacity:0;
+}
 
 .image {
-    max-width:300px;
-    max-height: 300px;
+    display: block;
+    position: relative;
+
+    width:30rem;
     object-fit: cover;
-    background-color: #1e1e1e;
-    margin: auto;
 
-    transition: all .7s cubic-bezier(.23,1,.32,1) 0s; 
+    transition: opacity .7s cubic-bezier(.23,1,.32,1) 0s;
 
-    mix-blend-mode:luminosity;
-}
-
-.img001{
-    background-color: #1e1e1e;
-    margin: auto;
-
-    transition: all .7s cubic-bezier(.23,1,.32,1) 0s;
-
-    top:30px;
-    left:10px;
 }
 
 #overlay {
@@ -283,5 +266,4 @@ div.nav-2 a{
     bottom:0;
     margin-left: 15px;
 }
-
 
