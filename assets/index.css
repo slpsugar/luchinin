@@ -76,7 +76,7 @@ body{
   top:0%;
 }
 
-.nav div {
+.nav-2, .nav-3, .nav-4 {
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -98,14 +98,35 @@ body{
 
 a{
   display:block;
+  cursor:crosshair;
   text-decoration: none;
   color:inherit;
   padding:5rem;
   transition: color 0.7s ease-in-out, text-transform 0.7s ease-in-out;
 }
 
-a:hover,
-a:active {
+.nav-1 {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Monument, sans-serif;
+  font-style:normal;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-repeat:no-repeat;
+  border: none;
+  background-color: transparent;
+  width:25%;
+}
+
+.nav-2 a:hover, .nav-3 a:hover, .nav-4 a:hover,
+.nav-2 a:active, .nav-3 a:active,  .nav-4 a:active {
   color:white;
   text-transform: lowercase;
   text-decoration: none;

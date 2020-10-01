@@ -189,6 +189,7 @@ div.nav-2 a{
     top:15rem;
     left:10rem;
     opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img002{
@@ -196,17 +197,97 @@ div.nav-2 a{
     top:3rem;
     left:25rem;
     opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
+
+#img003{
+    position:absolute;
+    top:7rem;
+    left:15rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img004{
+    position:absolute;
+    top:8rem;
+    left:1rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img005{
+    position:absolute;
+    top:1rem;
+    left:30rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img006{
+    position:absolute;
+    top:4rem;
+    left:6rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img007{
+    position:absolute;
+    top:13rem;
+    left:12rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img008{
+    position:absolute;
+    top:30rem;
+    left:2rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img009{
+    position:absolute;
+    top:9rem;
+    left:6rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img010{
+    position:absolute;
+    top:3rem;
+    left:17rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img011{
+    position:absolute;
+    top:4rem;
+    left:14rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img012{
+    position:absolute;
+    top:0rem;
+    left:5rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+
+
 
 .image {
     display: block;
     position: relative;
-
-    width:30rem;
+    width:15rem;
     object-fit: cover;
-
-    transition: opacity .7s cubic-bezier(.23,1,.32,1) 0s;
-
 }
 
 #overlay {
@@ -214,37 +295,11 @@ div.nav-2 a{
     display: none;
     width: 100% ;
     height: 100%;
-    /* top:0;
-    left:0;
-    right:0;
-    bottom:0; */
     background-color:white;
     z-index:20;
     cursor: crosshair;
     padding: 5%;
 }  
-  
-.title {
-    color: rgb(3,45,18);
-    font-family: MBold, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: right;
-    text-transform: lowercase;
-
-    margin-bottom: 0;
-}
-
-.description{
-    color: rgb(3,45,18);
-    font-family: Monument, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    text-align: right;
-    text-transform: lowercase;
-}
 
 .full-col1{
     display: flex;
@@ -266,4 +321,26 @@ div.nav-2 a{
     bottom:0;
     margin-left: 15px;
 }
+
+.title {
+    color: rgb(3,45,18);
+    font-family: MBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+
+.description{
+    color: rgb(3,45,18);
+    font-family: Monument, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: right;
+    text-transform: lowercase;
+}
+
 
