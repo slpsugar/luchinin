@@ -179,6 +179,7 @@ div.nav-2 a{
     position: relative;
     width: 50%;
     max-height:100vh;
+    overflow: hidden;
     /* background-color: #D71A00; */
     margin-top:8rem;
     padding:2rem;
@@ -186,96 +187,272 @@ div.nav-2 a{
 
 #img001{
     position:absolute;
-    top:15rem;
-    left:10rem;
+    top:0rem;
+    left:0rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img002{
     position:absolute;
-    top:3rem;
-    left:25rem;
+    top:52rem;
+    left:58rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img003{
     position:absolute;
-    top:7rem;
-    left:15rem;
+    top:0rem;
+    left:57rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img004{
     position:absolute;
-    top:8rem;
-    left:1rem;
+    top:52rem;
+    left:5rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img005{
     position:absolute;
-    top:1rem;
-    left:30rem;
+    top:34rem;
+    left:57rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img006{
     position:absolute;
-    top:4rem;
-    left:6rem;
+    top:36rem;
+    left:45rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img007{
     position:absolute;
-    top:13rem;
-    left:12rem;
+    top:54rem;
+    left:0rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img008{
     position:absolute;
-    top:30rem;
-    left:2rem;
+    top:26rem;
+    left:50rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img009{
     position:absolute;
-    top:9rem;
-    left:6rem;
+    top:15rem;
+    left:57rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img010{
     position:absolute;
-    top:3rem;
-    left:17rem;
+    top:26rem;
+    left:20rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img011{
     position:absolute;
-    top:4rem;
-    left:14rem;
+    top:18rem;
+    left:18rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
 #img012{
     position:absolute;
-    top:0rem;
-    left:5rem;
+    top:35rem;
+    left:20rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img013{
+    position:absolute;
+    top:21rem;
+    left:54rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img014{
+    position:absolute;
+    top:10rem;
+    left:8rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img015{
+    position:absolute;
+    top:18rem;
+    left:42rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img016{
+    position:absolute;
+    top:82rem;
+    left:28rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img017{
+    position:absolute;
+    top:6rem;
+    left:42rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img018{
+    position:absolute;
+    top:29rem;
+    left:16rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img019{
+    position:absolute;
+    top:44rem;
+    left:9rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img020{
+    position:absolute;
+    top:28rem;
+    left:31rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img021{
+    position:absolute;
+    top:20rem;
+    left:1rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img022{
+    position:absolute;
+    top:50rem;
+    left:28rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img023{
+    position:absolute;
+    top:55rem;
+    left:53rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img024{
+    position:absolute;
+    top:54rem;
+    left:35rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img025{
+    position:absolute;
+    top:40rem;
+    left:1rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img026{
+    position:absolute;
+    top:41rem;
+    left:41rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img027{
+    position:absolute;
+    top:38rem;
+    left:40rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img028{
+    position:absolute;
+    top:0.5rem;
+    left:23rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img029{
+    position:absolute;
+    top:28rem;
+    left:4rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img030{
+    position:absolute;
+    top:56rem;
+    left:16rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img031{
+    position:absolute;
+    top:50rem;
+    left:17rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img032{
+    position:absolute;
+    top:27rem;
+    left:35rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img033{
+    position:absolute;
+    top:5rem;
+    left:6rem;
+    opacity:0;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img034{
+    position:absolute;
+    top:4rem;
+    left:31rem;
     opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
@@ -286,7 +463,7 @@ div.nav-2 a{
 .image {
     display: block;
     position: relative;
-    width:15rem;
+    width:20rem;
     object-fit: cover;
 }
 
