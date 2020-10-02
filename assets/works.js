@@ -193,8 +193,11 @@ var init = () => {
 	row24.addEventListener('mouseover', () => {img024.style.opacity = '1';});
 	row24.addEventListener('mouseout', () => {img024.style.opacity = '0.3';});
 
-	row25.addEventListener('mouseover', () => {img026.style.opacity = '1';});
-	row25.addEventListener('mouseout', () => {img026.style.opacity = '0.3';});
+	row25.addEventListener('mouseover', () => {img025.style.opacity = '1';});
+	row25.addEventListener('mouseout', () => {img025.style.opacity = '0.3';});
+
+	row26.addEventListener('mouseover', () => {img026.style.opacity = '1';});
+	row26.addEventListener('mouseout', () => {img026.style.opacity = '0.3';});
 
 	row27.addEventListener('mouseover', () => {img027.style.opacity = '1';});
 	row27.addEventListener('mouseout', () => {img027.style.opacity = '0.3';});
