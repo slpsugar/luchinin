@@ -189,7 +189,6 @@ div.nav-3 a{
     position:absolute;
     top:0rem;
     left:0rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -197,7 +196,6 @@ div.nav-3 a{
     position:absolute;
     top:52rem;
     left:58rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -205,7 +203,6 @@ div.nav-3 a{
     position:absolute;
     top:0rem;
     left:57rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -213,7 +210,6 @@ div.nav-3 a{
     position:absolute;
     top:52rem;
     left:5rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -221,7 +217,6 @@ div.nav-3 a{
     position:absolute;
     top:34rem;
     left:57rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -229,7 +224,6 @@ div.nav-3 a{
     position:absolute;
     top:36rem;
     left:45rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -237,7 +231,6 @@ div.nav-3 a{
     position:absolute;
     top:54rem;
     left:0rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -245,7 +238,6 @@ div.nav-3 a{
     position:absolute;
     top:26rem;
     left:50rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -253,7 +245,6 @@ div.nav-3 a{
     position:absolute;
     top:15rem;
     left:57rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -261,7 +252,6 @@ div.nav-3 a{
     position:absolute;
     top:26rem;
     left:20rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -269,7 +259,6 @@ div.nav-3 a{
     position:absolute;
     top:18rem;
     left:18rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -277,7 +266,6 @@ div.nav-3 a{
     position:absolute;
     top:35rem;
     left:20rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -285,7 +273,6 @@ div.nav-3 a{
     position:absolute;
     top:21rem;
     left:54rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -293,7 +280,6 @@ div.nav-3 a{
     position:absolute;
     top:10rem;
     left:8rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -301,7 +287,6 @@ div.nav-3 a{
     position:absolute;
     top:18rem;
     left:42rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -309,7 +294,6 @@ div.nav-3 a{
     position:absolute;
     top:82rem;
     left:28rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -317,7 +301,6 @@ div.nav-3 a{
     position:absolute;
     top:6rem;
     left:42rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -325,7 +308,6 @@ div.nav-3 a{
     position:absolute;
     top:29rem;
     left:16rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -333,7 +315,6 @@ div.nav-3 a{
     position:absolute;
     top:44rem;
     left:9rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -341,7 +322,6 @@ div.nav-3 a{
     position:absolute;
     top:28rem;
     left:31rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -349,7 +329,6 @@ div.nav-3 a{
     position:absolute;
     top:20rem;
     left:1rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -357,7 +336,6 @@ div.nav-3 a{
     position:absolute;
     top:50rem;
     left:28rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -365,7 +343,6 @@ div.nav-3 a{
     position:absolute;
     top:55rem;
     left:53rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -373,7 +350,6 @@ div.nav-3 a{
     position:absolute;
     top:54rem;
     left:35rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -381,7 +357,6 @@ div.nav-3 a{
     position:absolute;
     top:40rem;
     left:1rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -389,7 +364,6 @@ div.nav-3 a{
     position:absolute;
     top:41rem;
     left:41rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -397,7 +371,6 @@ div.nav-3 a{
     position:absolute;
     top:38rem;
     left:40rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -405,7 +378,6 @@ div.nav-3 a{
     position:absolute;
     top:0.5rem;
     left:23rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -413,7 +385,6 @@ div.nav-3 a{
     position:absolute;
     top:28rem;
     left:4rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -421,7 +392,6 @@ div.nav-3 a{
     position:absolute;
     top:56rem;
     left:16rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -429,7 +399,6 @@ div.nav-3 a{
     position:absolute;
     top:50rem;
     left:17rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -437,7 +406,6 @@ div.nav-3 a{
     position:absolute;
     top:27rem;
     left:35rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -445,7 +413,6 @@ div.nav-3 a{
     position:absolute;
     top:5rem;
     left:6rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -453,7 +420,6 @@ div.nav-3 a{
     position:absolute;
     top:4rem;
     left:31rem;
-    opacity:0;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
@@ -520,4 +486,96 @@ div.nav-3 a{
     text-transform: lowercase;
 }
 
+.nav-mob {
+    display: none;
+}
 
+.nav1 {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    height:50%;
+
+    padding-right: 20px;
+
+    color: rgba(219,255,0,1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Monument, sans-serif;
+    font-style:normal;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1;
+    text-decoration: none;
+    background-repeat:no-repeat;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+
+    opacity: 0;
+    animation: fadeIn ease-out 2s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.nav2 {
+    display: flex;
+    position: fixed;
+    justify-content:center;
+    align-items: flex-end;
+    width:100%;
+    height:50%;
+    top:50%;
+
+    color: rgba(219,255,0,1);
+    text-align: center;
+    font-size: 50px;
+    font-family: MBold, sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-repeat:no-repeat;
+    border: none;
+    background-color: transparent;
+  }
+
+  .right-mob{
+    display: none;
+    position: relative;
+
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    margin-top:0;
+    padding:0;
+}
+
+@media (max-width:600px) {
+    .nav {
+        display: none;
+    }
+    
+    .nav-mob {
+        display: grid;
+    }
+    
+    .left, .right {
+        display: none;
+    }
+
+    .right-mob {
+        display: contents;
+    }
+
+    
+
+}
