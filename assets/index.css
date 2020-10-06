@@ -67,6 +67,64 @@ body{
   transition: color 0.7s ease-in-out;
 }
 
+.nav-mob {
+  display: none;
+
+  grid-template-columns: 100vw;
+  grid-template-rows: repeat(8, 12.5vh);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+}
+
+.nav4 { grid-area: 8 / 1 / 9 / 2; border: seagreen 2px solid;}
+.nav3 { grid-area: 7 / 1 / 8 / 2; border: seagreen 2px solid;}
+.nav2 { grid-area: 6 / 1 / 7 / 2; border: seagreen 2px solid;}
+.nav1 { grid-area: 5 / 1 / 6 / 2; border: seagreen 2px solid;}
+.div5 { grid-area: 4 / 1 / 5 / 2; border: seagreen 2px solid;}
+.div6 { grid-area: 3 / 1 / 4 / 2; border: seagreen 2px solid;}
+.div7 { grid-area: 2 / 1 / 3 / 2; border: seagreen 2px solid;}
+.div8 { grid-area: 1 / 1 / 2 / 2; border: seagreen 2px solid;}
+
+.nav1, .nav2, .nav3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: Monument, sans-serif;
+  font-style:normal;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-repeat:no-repeat;
+  border: none;
+  background-color: transparent;
+}
+
+.nav4 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  color: rgba(219,255,0,1);
+  text-align: center;
+  font-size: 50px;
+  font-family: MBold, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-repeat:no-repeat;
+  border: none;
+  background-color: transparent;
+}
+
 
 .nav {
   display:flex;
@@ -139,4 +197,34 @@ div.main a:hover {
   text-transform: uppercase;
   cursor: crosshair;
   text-decoration: none;
+}
+
+
+@media (max-width: 600px){
+  html {
+    font-size: 20px;
+  }
+
+  .bg-image{
+    position: absolute;
+    height: 979px;
+    width: 677px;
+    left: -209px;
+    top: -111px;
+    background-size: contain;
+    z-index: -1;
+  }
+
+  .nav, .main {
+    display:none;
+  }
+
+  .nav-mob {
+    display: grid;
+  }
+  
+  a{
+    padding:0;
+  }
+
 }
