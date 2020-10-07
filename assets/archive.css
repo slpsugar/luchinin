@@ -130,11 +130,11 @@ a{
     height: 100%;
 }
 
-#overlay {
+#overlaymob {
     position: fixed;
     display: none;
-    width: 100% ;
-    height: 100%;
+    width: 100vw ;
+    height: 100vh;
     background-color:white;
     z-index:20;
     cursor: crosshair;
@@ -145,12 +145,6 @@ a{
     display: block;
     position: relative;
     width: 100%;
-}
-
-.full-row2{
-    align-self: flex-start;
-    width:100%;
-    object-fit: contain;
 }
 
 .full-image {

@@ -546,9 +546,18 @@ div.nav-3 a{
     background-repeat:no-repeat;
     border: none;
     background-color: transparent;
-  }
+}
 
-  .right-mob{
+div.nav1 a:hover,div.nav2 a:hover {
+    color: rgba(219,255,0,1);
+    cursor:crosshair;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+  
+
+
+.right-mob{
     display: none;
     position: relative;
 

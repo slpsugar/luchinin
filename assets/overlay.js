@@ -1,8 +1,8 @@
 function on(){
-    document.getElementById ("overlay").style.display="flex";
+    document.getElementById ("overlaymob").style.display="flex";
 }
 
 function off(){
-        document.getElementById("overlay").style.display="none";
+        document.getElementById("overlaymob").style.display="none";
 }
 
