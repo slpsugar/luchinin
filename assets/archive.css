@@ -141,7 +141,27 @@ a{
     padding: 20px;
 }  
   
+.full-row1{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.full-row2{
+    align-self: flex-start;
+    width:100%;
+    object-fit: contain;
+}
+
+.full-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
 .title {
+    display:grid;
+    position:relative;
     color: rgb(3,45,18);
     font-family: MBold, sans-serif;
     font-style: normal;
@@ -149,8 +169,7 @@ a{
     font-size: 25px;
     text-align: right;
     text-transform: lowercase;
-
-    margin-bottom: 0;
+    margin-top:10px;
 }
 
 .description{
@@ -161,24 +180,6 @@ a{
     font-size: 15px;
     text-align: right;
     text-transform: lowercase;
-}
-
-.full-col1{
-    display: block;
-    position: absolute;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: flex-end;
-    bottom:0;
-}
-
-.full-col2{
-    display: block;
-    position: relative;
-    justify-content: left;
-    align-self: flex-start;
-    width:100%;
-    object-fit: contain;
-    bottom:0;
+    margin-top:10px;
 }
 

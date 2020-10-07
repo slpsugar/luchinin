@@ -566,6 +566,7 @@ div.nav-3 a{
     
     .nav-mob {
         display: grid;
+        z-index:50;
     }
     
     .left, .right {
