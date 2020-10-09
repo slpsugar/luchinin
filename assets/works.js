@@ -255,3 +255,5 @@ var init = () => {
 	row34.addEventListener('mouseout', () => {img034.style.opacity = '0.15';});
 };
 init();
+
+
