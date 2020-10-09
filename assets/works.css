@@ -488,6 +488,7 @@ div.nav-3 a{
 
 .nav-mob {
     display: none;
+    position: fixed;
 }
 
 .nav1 {
@@ -595,7 +596,100 @@ div.nav1 a:hover,div.nav2 a:hover {
     .right-mob {
         display: contents;
     }
+}
 
-    
+.overlay-full{
+    display: flex;
+    position: relative;
+    width:100%;
+    max-height:100vh;
+}
 
+
+#full001{
+    display:none;
+    position: relative;
+    width: 100% ;
+    max-height: 100vh;
+    left:0;
+    top:0;
+
+    background-color:white;
+    z-index:100;
+    cursor: crosshair;
+    padding: 5rem;
+
+}
+
+.title-col {
+    display:grid;
+    position:relative;
+    align-content: flex-end;
+    width:50%;
+    height:100%;
+
+    color: rgb(3,45,18);
+    font-family: MBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    text-transform: lowercase;
+    margin:0;
+}
+
+.description{
+    color: rgb(3,45,18);
+    font-family: Monument, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.full-image-col {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    height: 100%;
+    left:2rem;
+}
+
+
+
+
+.full-row{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.full-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    display:grid;
+    position:relative;
+    color: rgb(3,45,18);
+    font-family: MBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    text-transform: lowercase;
+    bottom:0;
+}
+
+.description{
+    color: rgb(3,45,18);
+    font-family: Monument, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    text-transform: lowercase;
 }

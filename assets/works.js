@@ -11,8 +11,10 @@
 // }
 
 
+
 var img001 = document.getElementById("img001");
 var row1 = document.getElementById("row-1");
+var full001 = document.getElementById("full001")
 
 var img002 = document.getElementById("img002");
 var row2 = document.getElementById("row-2");
@@ -154,6 +156,8 @@ var init = () => {
 
 	row1.addEventListener('mouseover', () => {img001.style.opacity = '1'; img001.style.zIndex='40';});
 	row1.addEventListener('mouseout', () => {img001.style.opacity = '0.15';});
+	row1.addEventListener('click', () => {full001.style.display = 'flex';});
+	full001.addEventListener('click', () => {full001.style.display = 'none';});
 
 	row2.addEventListener('mouseover', () => {img002.style.opacity = '1'; img002.style.zIndex='40';});
 	row2.addEventListener('mouseout', () => {img002.style.opacity = '0.15';});
