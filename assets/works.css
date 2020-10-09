@@ -180,7 +180,6 @@ div.nav-3 a{
     width: 50%;
     max-height:100vh;
     overflow: hidden;
-    /* background-color: #D71A00; */
     margin-top:8rem;
     padding:2rem;
 }
@@ -208,7 +207,7 @@ div.nav-3 a{
 
 #img004{
     position:absolute;
-    top:52rem;
+    top:3rem;
     left:5rem;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
@@ -596,6 +595,14 @@ div.nav1 a:hover,div.nav2 a:hover {
     .right-mob {
         display: contents;
     }
+
+    .overlay-full{
+        display: none;
+        position: relative;
+        width:100%;
+        max-height:100vh;
+    }
+    
 }
 
 .overlay-full{
@@ -605,12 +612,11 @@ div.nav1 a:hover,div.nav2 a:hover {
     max-height:100vh;
 }
 
-
-#full001{
+#full001, #full002, #full003, #full005, #full011,#full012 {
     display:none;
     position: relative;
     width: 100% ;
-    max-height: 100vh;
+    height: 100vh;
     left:0;
     top:0;
 
@@ -618,7 +624,6 @@ div.nav1 a:hover,div.nav2 a:hover {
     z-index:100;
     cursor: crosshair;
     padding: 5rem;
-
 }
 
 .title-col {
@@ -632,10 +637,11 @@ div.nav1 a:hover,div.nav2 a:hover {
     font-family: MBold, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: right;
     text-transform: lowercase;
     margin:0;
+    padding-right: 2rem;;
 }
 
 .description{
@@ -643,7 +649,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     font-family: Monument, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: right;
     text-transform: lowercase;
 }
@@ -653,43 +659,45 @@ div.nav1 a:hover,div.nav2 a:hover {
     position: relative;
     justify-content: left;
     height: 100%;
-    left:2rem;
 }
 
-
-
-
-.full-row{
-    display: block;
+#full004, #full006, #full007, #full008, #full009, #full010 {
+    display:none;
     position: relative;
-    width: 100%;
+    width: 100% ;
+    height: 100vh;
+    left:0;
+    top:0;
+
+    background-color:white;
+    z-index:100;
+    cursor: crosshair;
+    padding: 5rem;
 }
 
 .full-image {
     display: flex;
     position: relative;
-    width: 100%;
+    justify-content: left;
+    align-self: flex-start;
+    width: 50%;
+    object-fit: contain;
 }
 
 .title {
-    display:grid;
+    display:block;
     position:relative;
+    align-content: flex-start;
+    width:50%;
+    height:100%;
+
     color: rgb(3,45,18);
     font-family: MBold, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: right;
     text-transform: lowercase;
-    bottom:0;
-}
-
-.description{
-    color: rgb(3,45,18);
-    font-family: Monument, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    text-align: right;
-    text-transform: lowercase;
+    margin:0;
+    padding-right: 2rem;;
 }
