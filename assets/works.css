@@ -612,7 +612,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     max-height:100vh;
 }
 
-#full001, #full002, #full003, #full005, #full011,#full012 {
+#full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015 {
     display:none;
     position: relative;
     width: 100% ;
@@ -661,7 +661,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     height: 100%;
 }
 
-#full004, #full006, #full007, #full008, #full009, #full010 {
+#full004, #full006, #full007, #full008, #full009, #full010, #full013 {
     display:none;
     position: relative;
     width: 100% ;
