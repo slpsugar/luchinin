@@ -291,7 +291,7 @@ div.nav-3 a{
 
 #img016{
     position:absolute;
-    top:82rem;
+    top:28rem;
     left:28rem;
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
@@ -612,7 +612,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     max-height:100vh;
 }
 
-#full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015 {
+#full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015, #full016 {
     display:none;
     position: relative;
     width: 100% ;
@@ -661,7 +661,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     height: 100%;
 }
 
-#full004, #full006, #full007, #full008, #full009, #full010, #full013 {
+#full004, #full006, #full007, #full008, #full009, #full010, #full013, #full017, #full018 {
     display:none;
     position: relative;
     width: 100% ;
