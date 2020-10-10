@@ -131,11 +131,11 @@ div.nav-2 a{
     background-repeat: no-repeat;
 }
 
-div.nav-2 a{
-    position:fixed;
-    color:white;
+.nav2 a:active,
+.nav2 a:hover {
+    color:inherit;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     cursor:crosshair;
 }
 
