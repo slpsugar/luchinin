@@ -559,13 +559,85 @@ div.nav1 a:hover,div.nav2 a:hover {
 .right-mob{
     display: none;
     position: relative;
+    flex-wrap: wrap;
     /* top:-500px;
     left:-400px; */
 
     width: 100vw;
-    height:100vh;
+    height:100vw;
     /* margin-top:0;
     padding:0; */
+}
+
+.right-mob > div{
+    display:flex;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    z-index:-1;
+}
+
+#img004m {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+}
+
+#img005m {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+
+#img008m{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 1;
+}
+
+#img020m {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+}
+
+#img025m {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 1;
+}
+
+#img026m {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    z-index: 1;
+}
+
+#img029m {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    z-index: 1;
+}
+
+#img030m {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    z-index: 1;
+}
+
+#img031m {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    z-index: 1;
 }
 
 .image-bg {
@@ -573,7 +645,6 @@ div.nav1 a:hover,div.nav2 a:hover {
     position: relative;
     object-fit: contain;
     align-self: flex-start;
-
     width:100%;
 
 }
