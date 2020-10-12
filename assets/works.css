@@ -474,6 +474,9 @@ div.nav-3 a{
     position: absolute;
     flex-wrap: wrap;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x, pan-y;
+
     top:-500px;
     left:-1000px;
 
