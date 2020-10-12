@@ -132,11 +132,11 @@ body{
 }
 
 .nav3:hover::before, .nav3:active::before{
+  align-self:flex-start;
   color:black;
   content: "x";
   font-size: 20px;
   text-transform: lowercase;
-  vertical-align: super;
 }
 
 .dropdown-content {
