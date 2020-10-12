@@ -485,198 +485,7 @@ div.nav-3 a{
     text-transform: lowercase;
 }
 
-.nav-mob {
-    display: none;
-    position: fixed;
-}
 
-.nav1 {
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height:10vh;
-    top:40vh;
-
-    color: rgba(219,255,0,1);
-    text-align: center;
-    font-size: 40px;
-    font-family: Monument, sans-serif;
-    font-style:normal;
-    font-weight: normal;
-    line-height: 1;
-    letter-spacing: 1;
-    text-decoration: none;
-    background-repeat:no-repeat;
-    border: none;
-    background-color: transparent;
-    text-transform: uppercase;
-
-    opacity: 0;
-    animation: fadeIn ease-out 2.5s;
-    animation-delay: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-
-.nav2 {
-    display: flex;
-    position: fixed;
-    justify-content:center;
-    align-items: center;
-    width:100vw;
-    height:10vh;
-    bottom: 0;
-
-    color: rgba(219,255,0,1);
-    text-align: center;
-    font-size: 50px;
-    font-family: MBold, sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-repeat:no-repeat;
-    border: none;
-    background-color: transparent;
-}
-
-div.nav1 a:hover,div.nav2 a:hover {
-    color: rgba(219,255,0,1);
-    cursor:crosshair;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-  
-
-
-.right-mob{
-    display: none;
-    position: relative;
-    flex-wrap: wrap;
-    /* top:-500px;
-    left:-400px; */
-
-    width: 100vw;
-    height:100vw;
-    /* margin-top:0;
-    padding:0; */
-}
-
-.right-mob > div{
-    display:flex;
-    position: relative;
-    width: 20%;
-    height: 20%;
-    z-index:-1;
-}
-
-#img004m {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    z-index: 1;
-}
-
-#img005m {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    z-index: 1;
-}
-
-#img008m{
-    position: absolute;
-    top: 30%;
-    left: 8%;
-    z-index: 1;
-}
-
-#img020m {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    z-index: 1;
-}
-
-#img025m {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    z-index: 1;
-}
-
-#img026m {
-    position: absolute;
-    top: 60%;
-    left: 30%;
-    z-index: 1;
-}
-
-#img029m {
-    position: absolute;
-    top: 70%;
-    left: 55%;
-    z-index: 1;
-}
-
-#img030m {
-    position: absolute;
-    top: 10%;
-    left: 65%;
-    z-index: 1;
-}
-
-#img031m {
-    position: absolute;
-    top: 35%;
-    left: 70%;
-    z-index: 1;
-}
-
-.image-bg {
-    display: flex;
-    position: relative;
-    object-fit: contain;
-    align-self: flex-start;
-    width:100%;
-
-}
-
-
-
-@media (max-width:600px) {
-    .nav {
-        display: none;
-    }
-    
-    .nav-mob {
-        display: grid;
-        z-index:50;
-    }
-    
-    .left, .right {
-        display: none;
-    }
-
-    .right-mob {
-        display: flex;
-    }
-
-    .overlay-full{
-        display: none;
-        position: relative;
-        width:100%;
-        max-height:100vh;
-    }
-    
-}
 
 .overlay-full{
     display: flex;
@@ -776,4 +585,185 @@ div.nav1 a:hover,div.nav2 a:hover {
     text-transform: lowercase;
     margin:0;
     padding-right: 2rem;;
+}
+
+.right-mob{
+    display: none;
+    position: absolute;
+    flex-wrap: wrap;
+    top:-800px;
+    left:-900px;
+
+    width: 800vw;
+    height:800vw;
+}
+
+.right-mob > div{
+    display:flex;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    z-index:-1;
+}
+
+#img004m {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
+}
+
+#img005m {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+
+#img008m{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 1;
+}
+
+#img020m {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+}
+
+#img025m {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 1;
+}
+
+#img026m {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    z-index: 1;
+}
+
+#img029m {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    z-index: 1;
+}
+
+#img030m {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    z-index: 1;
+}
+
+#img031m {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    z-index: 1;
+}
+
+.image-bg {
+    display: flex;
+    position: relative;
+    object-fit: contain;
+    align-self: flex-start;
+    width:100%;
+
+}
+
+.nav-mob {
+    display: none;
+    position: fixed;
+
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.nav1 {
+    display: flex;
+    position: fixed;
+
+    justify-content: center;
+    align-items: flex-end;
+    width:100vw;
+    height:10vh;
+    top:40vh;
+
+    color: rgba(219,255,0,1);
+    text-align: center;
+    font-size: 40px;
+    font-family: Monument, sans-serif;
+    font-style:normal;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1;
+    text-decoration: none;
+    background-repeat:no-repeat;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+
+    opacity: 0;
+    animation: fadeIn ease-out 2.5s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+.nav2 {
+    display: flex;
+    position: fixed;
+    justify-content:center;
+    align-items: flex-end;
+
+    width:100%;
+    height:12vh;
+    bottom:0;
+    z-index:10;
+
+    color:rgba(219,255,0,1);
+    text-align: center;
+    font-size: 50px;
+    font-family: MBold, sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+div.nav1 a:hover,div.nav2 a:hover {
+    color: rgba(219,255,0,1);
+    cursor:crosshair;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+   
+    .nav-mob {
+        display: grid;
+        position: fixed;
+        z-index:50;
+    }
+    
+    .nav, .left, .right, .overlay-full {
+        display: none;
+    }
+
+    .right-mob {
+        display: flex;
+    }
+    
 }
