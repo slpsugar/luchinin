@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/index.css">
-    <title>Luchinin</title>
-    <script src="assets/index-mob.js"></script>
 
+    <meta property="og:title" content="Luchinin"/>
+    <meta property="og:desription" content="Collection of my works"/>
+    <meta property="og:image" content="assets/images/2020/I_scan.jpg")/>
+    <meta property="og:url" content=https://slpsugar.github.io/afterlife/>
+
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="shortcut ion" href="assets/images/2020/I_scan.jpg">
+
+    <title>Luchinin</title>
 </head>
 
 <body>
@@ -29,20 +35,24 @@
     <div class="nav-mob">
         <div class="mob nav1"><a href="works.html">Works</a></div>
         <div class="mob nav2"><a href="about.html">About</a></div>
-        <div class="mob nav3">Contact</div>
         <div class="nav4"><a href="index.html">Luchinin</a></div>
 
-        <!-- <div class="nav5">
-            <a href="http://instagram.com/nikita_luchinin" 
-            target="_blank" 
-            rel="noopener noreferrer">Instagram</a>
-        </div>
-        <div class="nav6"><a href="mailto:hotlilwhale@gmail.com">E-mail</a></div>    
+        <div class="mob nav3">Contact</div>
 
-        <div class="div7"></div>
-        <div class="div8"></div> -->
+
+        <div class="dropdown">
+            <div onclick="myFunction()" class="mob nav3">Contact</div>
+            <div id="myDropdown" class="mob dropdown-content">
+                <a class="mob nav5" href="http://instagram.com/nikita_luchinin" 
+                target="_blank" 
+                rel="noopener noreferrer">Instagram</a>
+                <a class="mob nav6" href="mailto:hotlilwhale@gmail.com">E-mail</a>
+            </div>
+          </div>
+       </div>
     </div>
 
+    <script src="assets/index-mob.js"></script>
 
 </body>
 </html>

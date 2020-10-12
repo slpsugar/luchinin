@@ -131,6 +131,76 @@ body{
   bottom: 10vh;
 }
 
+.nav3:hover::before, .nav3:active::before{
+  color:black;
+  content: "x";
+  font-size: 20px;
+  text-transform: lowercase;
+  vertical-align: super;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-align: right;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: transparent}
+
+.show {
+  display:flex;
+  width:100vw;
+}
+
+.hide {
+  display:none;
+}
+
+.mdrop {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  height: 10vh;
+  right:0;
+
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-family: Monument, sans-serif;
+  font-style:normal;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 1;
+  text-decoration: none;
+  background-repeat:no-repeat;
+  border: none;
+  background-color: transparent;
+}
+
+.nav5 {
+  display:flex;
+  bottom: 20vh;
+}
+
+.nav6{
+  display:flex;
+  bottom: 30vh;
+}
+
 .nav {
   display:flex;
   position:fixed;
