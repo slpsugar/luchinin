@@ -157,23 +157,6 @@ div.nav-3 a{
     width: 15%;
 }
   
-/* .col-3{
-    display: block;
-    position: relative;
-    align-items: flex-end;
-    justify-content: flex-start;
-    /* width: calc(0.5/ 12 * 100%);
-} */
-
-
-/* .col-4{
-    display: flex;
-    position: relative;
-    align-items: flex-end;
-    justify-content: center;
-    width: calc(1.5 / 12 * 100%);
-} */
-
 .right{
     display: flex;
     position: relative;
@@ -485,15 +468,17 @@ div.nav-3 a{
     text-transform: lowercase;
 }
 
+
 .right-mob{
     display: none;
     position: absolute;
     flex-wrap: wrap;
-    top:-800px;
-    left:-900px;
+    overflow: scroll;
+    top:-500px;
+    left:-1000px;
 
-    width: 800vw;
-    height:800vw;
+    width: 600vw;
+    height:600vw;
 }
 
 .right-mob > div{
@@ -579,7 +564,6 @@ div.nav-3 a{
 .nav-mob {
     display: none;
     position: fixed;
-
 }
 
 @keyframes fadeIn {
@@ -592,7 +576,7 @@ div.nav-3 a{
     position: fixed;
 
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width:100vw;
     height:10vh;
     top:40vh;
@@ -612,8 +596,8 @@ div.nav-3 a{
     text-transform: uppercase;
 
     opacity: 0;
-    animation: fadeIn ease-out 2.5s;
-    animation-delay: 500ms;
+    animation: fadeIn ease-out 3000ms;
+    animation-delay: 2000ms;
     animation-fill-mode: forwards;
 }
 
@@ -624,7 +608,7 @@ div.nav-3 a{
     align-items: flex-end;
 
     width:100%;
-    height:12vh;
+    height:10vh;
     bottom:0;
     z-index:10;
 
