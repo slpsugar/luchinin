@@ -132,6 +132,7 @@ body{
 }
 
 .nav3:hover::before, .nav3:active::before{
+  display:flex;
   align-self:flex-start;
   color:black;
   content: "x";
@@ -301,7 +302,5 @@ div.main a:hover {
   a{
     padding:0;
   }
-
-
-
 }
+
