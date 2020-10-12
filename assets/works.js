@@ -185,176 +185,176 @@ var init = () => {
 	img033.style.opacity = '0';
 	img034.style.opacity = '0';
 
-	row1.addEventListener('mouseover', () => {img001.style.opacity = '1'; img001.style.zIndex='40';});
-	row1.addEventListener('mouseout', () => {img001.style.opacity = '0.15';});
+	row1.addEventListener('mouseenter', () => {img001.style.opacity = '1';});
+	row1.addEventListener('mouseleave', () => {img001.style.opacity = '0.15';});
 	row1.addEventListener('click', () => {full001.style.display = 'flex';});
 	full001.addEventListener('click', () => {full001.style.display = 'none';});
 
-	row2.addEventListener('mouseover', () => {img002.style.opacity = '1'; img002.style.zIndex='40';});
-	row2.addEventListener('mouseout', () => {img002.style.opacity = '0.15';});
+	row2.addEventListener('mouseenter', () => {img002.style.opacity = '1';});
+	row2.addEventListener('mouseleave', () => {img002.style.opacity = '0.15';});
 	row2.addEventListener('click', () => {full002.style.display = 'flex';});
 	full002.addEventListener('click', () => {full002.style.display = 'none';});
 
 
-	row3.addEventListener('mouseover', () => {img003.style.opacity = '1'; img003.style.zIndex='40';});
-	row3.addEventListener('mouseout', () => {img003.style.opacity = '0.15';});
+	row3.addEventListener('mouseenter', () => {img003.style.opacity = '1';});
+	row3.addEventListener('mouseleave', () => {img003.style.opacity = '0.15';});
 	row3.addEventListener('click', () => {full003.style.display = 'flex';});
 	full003.addEventListener('click', () => {full003.style.display = 'none';});
 
-	row4.addEventListener('mouseover', () => {img004.style.opacity = '1'; img004.style.zIndex='40';});
-	row4.addEventListener('mouseout', () => {img004.style.opacity = '0.15';});
+	row4.addEventListener('mouseenter', () => {img004.style.opacity = '1';});
+	row4.addEventListener('mouseleave', () => {img004.style.opacity = '0.15';});
 	row4.addEventListener('click', () => {full004.style.display = 'flex';});
 	full004.addEventListener('click', () => {full004.style.display = 'none';});
 
-	row5.addEventListener('mouseover', () => {img005.style.opacity = '1'; img005.style.zIndex='40';});
-	row5.addEventListener('mouseout', () => {img005.style.opacity = '0.15';});
+	row5.addEventListener('mouseenter', () => {img005.style.opacity = '1';});
+	row5.addEventListener('mouseleave', () => {img005.style.opacity = '0.15';});
 	row5.addEventListener('click', () => {full005.style.display = 'flex';});
 	full005.addEventListener('click', () => {full005.style.display = 'none';});
 
-	row6.addEventListener('mouseover', () => {img006.style.opacity = '1'; img006.style.zIndex='40';});
-	row6.addEventListener('mouseout', () => {img006.style.opacity = '0.15';});
+	row6.addEventListener('mouseenter', () => {img006.style.opacity = '1';});
+	row6.addEventListener('mouseleave', () => {img006.style.opacity = '0.15';});
 	row6.addEventListener('click', () => {full006.style.display = 'flex';});
 	full006.addEventListener('click', () => {full006.style.display = 'none';});
 
-	row7.addEventListener('mouseover', () => {img007.style.opacity = '1'; img007.style.zIndex='40';});
-	row7.addEventListener('mouseout', () => {img007.style.opacity = '0.15';});
+	row7.addEventListener('mouseenter', () => {img007.style.opacity = '1';});
+	row7.addEventListener('mouseleave', () => {img007.style.opacity = '0.15';});
 	row7.addEventListener('click', () => {full007.style.display = 'flex';});
 	full007.addEventListener('click', () => {full007.style.display = 'none';});
 
-	row8.addEventListener('mouseover', () => {img008.style.opacity = '1'; img008.style.zIndex='40';});
-	row8.addEventListener('mouseout', () => {img008.style.opacity = '0.15';});
+	row8.addEventListener('mouseenter', () => {img008.style.opacity = '1';});
+	row8.addEventListener('mouseleave', () => {img008.style.opacity = '0.15';});
 	row8.addEventListener('click', () => {full008.style.display = 'flex';});
 	full008.addEventListener('click', () => {full008.style.display = 'none';});
 
-	row9.addEventListener('mouseover', () => {img009.style.opacity = '1'; img009.style.zIndex='40';});
-	row9.addEventListener('mouseout', () => {img009.style.opacity = '0.15';});
+	row9.addEventListener('mouseenter', () => {img009.style.opacity = '1';});
+	row9.addEventListener('mouseleave', () => {img009.style.opacity = '0.15';});
 	row9.addEventListener('click', () => {full009.style.display = 'flex';});
 	full009.addEventListener('click', () => {full009.style.display = 'none';});
 
-	row10.addEventListener('mouseover', () => {img010.style.opacity = '1'; img010.style.zIndex='40';});
-	row10.addEventListener('mouseout', () => {img010.style.opacity = '0.15';});
+	row10.addEventListener('mouseenter', () => {img010.style.opacity = '1';});
+	row10.addEventListener('mouseleave', () => {img010.style.opacity = '0.15';});
 	row10.addEventListener('click', () => {full010.style.display = 'flex';});
 	full010.addEventListener('click', () => {full010.style.display = 'none';});
 
-	row11.addEventListener('mouseover', () => {img011.style.opacity = '1'; img011.style.zIndex='40';});
-	row11.addEventListener('mouseout', () => {img011.style.opacity = '0.15';});
+	row11.addEventListener('mouseenter', () => {img011.style.opacity = '1';});
+	row11.addEventListener('mouseleave', () => {img011.style.opacity = '0.15';});
 	row11.addEventListener('click', () => {full011.style.display = 'flex';});
 	full011.addEventListener('click', () => {full011.style.display = 'none';});
 
-	row12.addEventListener('mouseover', () => {img012.style.opacity = '1'; img012.style.zIndex='40';});
-	row12.addEventListener('mouseout', () => {img012.style.opacity = '0.15';});
+	row12.addEventListener('mouseenter', () => {img012.style.opacity = '1';});
+	row12.addEventListener('mouseleave', () => {img012.style.opacity = '0.15';});
 	row12.addEventListener('click', () => {full012.style.display = 'flex';});
 	full012.addEventListener('click', () => {full012.style.display = 'none';});
 
-	row13.addEventListener('mouseover', () => {img013.style.opacity = '1'; img013.style.zIndex='40';});
-	row13.addEventListener('mouseout', () => {img013.style.opacity = '0.15';});
+	row13.addEventListener('mouseenter', () => {img013.style.opacity = '1';});
+	row13.addEventListener('mouseleave', () => {img013.style.opacity = '0.15';});
 	row13.addEventListener('click', () => {full013.style.display = 'flex';});
 	full013.addEventListener('click', () => {full013.style.display = 'none';});
 
-	row14.addEventListener('mouseover', () => {img014.style.opacity = '1'; img014.style.zIndex='40';});
-	row14.addEventListener('mouseout', () => {img014.style.opacity = '0.15';});
+	row14.addEventListener('mouseenter', () => {img014.style.opacity = '1';});
+	row14.addEventListener('mouseleave', () => {img014.style.opacity = '0.15';});
 	row14.addEventListener('click', () => {full014.style.display = 'flex';});
 	full014.addEventListener('click', () => {full014.style.display = 'none';});
 
-	row15.addEventListener('mouseover', () => {img015.style.opacity = '1'; img015.style.zIndex='40';});
-	row15.addEventListener('mouseout', () => {img015.style.opacity = '0.15';});
+	row15.addEventListener('mouseenter', () => {img015.style.opacity = '1';});
+	row15.addEventListener('mouseleave', () => {img015.style.opacity = '0.15';});
 	row15.addEventListener('click', () => {full015.style.display = 'flex';});
 	full015.addEventListener('click', () => {full015.style.display = 'none';});
 
-	row16.addEventListener('mouseover', () => {img016.style.opacity = '1'; img016.style.zIndex='40';});
-	row16.addEventListener('mouseout', () => {img016.style.opacity = '0.15';});
+	row16.addEventListener('mouseenter', () => {img016.style.opacity = '1';});
+	row16.addEventListener('mouseleave', () => {img016.style.opacity = '0.15';});
 	row16.addEventListener('click', () => {full016.style.display = 'flex';});
 	full016.addEventListener('click', () => {full016.style.display = 'none';});
 
-	row17.addEventListener('mouseover', () => {img017.style.opacity = '1'; img017.style.zIndex='40';});
-	row17.addEventListener('mouseout', () => {img017.style.opacity = '0.15';});
+	row17.addEventListener('mouseenter', () => {img017.style.opacity = '1';});
+	row17.addEventListener('mouseleave', () => {img017.style.opacity = '0.15';});
 	row17.addEventListener('click', () => {full017.style.display = 'flex';});
 	full017.addEventListener('click', () => {full017.style.display = 'none';});
 
-	row18.addEventListener('mouseover', () => {img018.style.opacity = '1'; img018.style.zIndex='40';});
-	row18.addEventListener('mouseout', () => {img018.style.opacity = '0.15';});
+	row18.addEventListener('mouseenter', () => {img018.style.opacity = '1';});
+	row18.addEventListener('mouseleave', () => {img018.style.opacity = '0.15';});
 	row18.addEventListener('click', () => {full018.style.display = 'flex';});
 	full018.addEventListener('click', () => {full018.style.display = 'none';});
 
-	row19.addEventListener('mouseover', () => {img019.style.opacity = '1'; img019.style.zIndex='40';});
-	row19.addEventListener('mouseout', () => {img019.style.opacity = '0.15';});
+	row19.addEventListener('mouseenter', () => {img019.style.opacity = '1';});
+	row19.addEventListener('mouseleave', () => {img019.style.opacity = '0.15';});
 	row19.addEventListener('click', () => {full019.style.display = 'flex';});
 	full019.addEventListener('click', () => {full019.style.display = 'none';});
 
-	row20.addEventListener('mouseover', () => {img020.style.opacity = '1'; img020.style.zIndex='40';});
-	row20.addEventListener('mouseout', () => {img020.style.opacity = '0.15';});
+	row20.addEventListener('mouseenter', () => {img020.style.opacity = '1';});
+	row20.addEventListener('mouseleave', () => {img020.style.opacity = '0.15';});
 	row20.addEventListener('click', () => {full020.style.display = 'flex';});
 	full020.addEventListener('click', () => {full020.style.display = 'none';});
 
-	row21.addEventListener('mouseover', () => {img021.style.opacity = '1'; img021.style.zIndex='40';});
-	row21.addEventListener('mouseout', () => {img021.style.opacity = '0.15';});
+	row21.addEventListener('mouseenter', () => {img021.style.opacity = '1';});
+	row21.addEventListener('mouseleave', () => {img021.style.opacity = '0.15';});
 	row21.addEventListener('click', () => {full021.style.display = 'flex';});
 	full021.addEventListener('click', () => {full021.style.display = 'none';});
 
-	row22.addEventListener('mouseover', () => {img022.style.opacity = '1'; img022.style.zIndex='40';});
-	row22.addEventListener('mouseout', () => {img022.style.opacity = '0.15';});
+	row22.addEventListener('mouseenter', () => {img022.style.opacity = '1';});
+	row22.addEventListener('mouseleave', () => {img022.style.opacity = '0.15';});
 	row22.addEventListener('click', () => {full022.style.display = 'flex';});
 	full022.addEventListener('click', () => {full022.style.display = 'none';});
 
-	row23.addEventListener('mouseover', () => {img023.style.opacity = '1'; img023.style.zIndex='40';});
-	row23.addEventListener('mouseout', () => {img023.style.opacity = '0.15';});
+	row23.addEventListener('mouseenter', () => {img023.style.opacity = '1';});
+	row23.addEventListener('mouseleave', () => {img023.style.opacity = '0.15';});
 	row23.addEventListener('click', () => {full023.style.display = 'flex';});
 	full023.addEventListener('click', () => {full023.style.display = 'none';});
 	
-	row24.addEventListener('mouseover', () => {img024.style.opacity = '1'; img024.style.zIndex='40';});
-	row24.addEventListener('mouseout', () => {img024.style.opacity = '0.15';});
+	row24.addEventListener('mouseenter', () => {img024.style.opacity = '1';});
+	row24.addEventListener('mouseleave', () => {img024.style.opacity = '0.15';});
 	row24.addEventListener('click', () => {full024.style.display = 'flex';});
 	full024.addEventListener('click', () => {full024.style.display = 'none';});
 
-	row25.addEventListener('mouseover', () => {img025.style.opacity = '1'; img025.style.zIndex='40';});
-	row25.addEventListener('mouseout', () => {img025.style.opacity = '0.15';});
+	row25.addEventListener('mouseenter', () => {img025.style.opacity = '1';});
+	row25.addEventListener('mouseleave', () => {img025.style.opacity = '0.15';});
 	row25.addEventListener('click', () => {full025.style.display = 'flex';});
 	full025.addEventListener('click', () => {full025.style.display = 'none';});
 
-	row26.addEventListener('mouseover', () => {img026.style.opacity = '1'; img026.style.zIndex='40';});
-	row26.addEventListener('mouseout', () => {img026.style.opacity = '0.15';});
+	row26.addEventListener('mouseenter', () => {img026.style.opacity = '1';});
+	row26.addEventListener('mouseleave', () => {img026.style.opacity = '0.15';});
 	row26.addEventListener('click', () => {full026.style.display = 'flex';});
 	full026.addEventListener('click', () => {full026.style.display = 'none';});
 
-	row27.addEventListener('mouseover', () => {img027.style.opacity = '1'; img027.style.zIndex='40';});
-	row27.addEventListener('mouseout', () => {img027.style.opacity = '0.15';});
+	row27.addEventListener('mouseenter', () => {img027.style.opacity = '1';});
+	row27.addEventListener('mouseleave', () => {img027.style.opacity = '0.15';});
 	row27.addEventListener('click', () => {full027.style.display = 'flex';});
 	full027.addEventListener('click', () => {full027.style.display = 'none';});
 
-	row28.addEventListener('mouseover', () => {img028.style.opacity = '1'; img028.style.zIndex='40';});
-	row28.addEventListener('mouseout', () => {img028.style.opacity = '0.15';});
+	row28.addEventListener('mouseenter', () => {img028.style.opacity = '1';});
+	row28.addEventListener('mouseleave', () => {img028.style.opacity = '0.15';});
 	row28.addEventListener('click', () => {full028.style.display = 'flex';});
 	full028.addEventListener('click', () => {full028.style.display = 'none';});
 
-	row29.addEventListener('mouseover', () => {img029.style.opacity = '1'; img029.style.zIndex='40';});
-	row29.addEventListener('mouseout', () => {img029.style.opacity = '0.15';});
+	row29.addEventListener('mouseenter', () => {img029.style.opacity = '1';});
+	row29.addEventListener('mouseleave', () => {img029.style.opacity = '0.15';});
 	row29.addEventListener('click', () => {full029.style.display = 'flex';});
 	full029.addEventListener('click', () => {full029.style.display = 'none';});
 
-	row30.addEventListener('mouseover', () => {img030.style.opacity = '1'; img030.style.zIndex='40';});
-	row30.addEventListener('mouseout', () => {img030.style.opacity = '0.15';});
+	row30.addEventListener('mouseenter', () => {img030.style.opacity = '1';});
+	row30.addEventListener('mouseleave', () => {img030.style.opacity = '0.15';});
 	row30.addEventListener('click', () => {full030.style.display = 'flex';});
 	full030.addEventListener('click', () => {full030.style.display = 'none';});
 
-	row31.addEventListener('mouseover', () => {img031.style.opacity = '1'; img031.style.zIndex='40';});
-	row31.addEventListener('mouseout', () => {img031.style.opacity = '0.15';});
+	row31.addEventListener('mouseenter', () => {img031.style.opacity = '1';});
+	row31.addEventListener('mouseleave', () => {img031.style.opacity = '0.15';});
 	row31.addEventListener('click', () => {full031.style.display = 'flex';});
 	full031.addEventListener('click', () => {full031.style.display = 'none';});
 
-	row32.addEventListener('mouseover', () => {img032.style.opacity = '1'; img032.style.zIndex='40';});
-	row32.addEventListener('mouseout', () => {img032.style.opacity = '0.15';});
+	row32.addEventListener('mouseenter', () => {img032.style.opacity = '1';});
+	row32.addEventListener('mouseleave', () => {img032.style.opacity = '0.15';});
 	row32.addEventListener('click', () => {full032.style.display = 'flex';});
 	full032.addEventListener('click', () => {full032.style.display = 'none';});
 
-	row33.addEventListener('mouseover', () => {img033.style.opacity = '1'; img033.style.zIndex='40';});
-	row33.addEventListener('mouseout', () => {img033.style.opacity = '0.15';});
+	row33.addEventListener('mouseenter', () => {img033.style.opacity = '1';});
+	row33.addEventListener('mouseleave', () => {img033.style.opacity = '0.15';});
 	row33.addEventListener('click', () => {full033.style.display = 'flex';});
 	full033.addEventListener('click', () => {full033.style.display = 'none';});
 
-	row34.addEventListener('mouseover', () => {img034.style.opacity = '1'; img034.style.zIndex='40';});
-	row34.addEventListener('mouseout', () => {img034.style.opacity = '0.15';});
+	row34.addEventListener('mouseenter', () => {img034.style.opacity = '1';});
+	row34.addEventListener('mouseleave', () => {img034.style.opacity = '0.15';});
 	row34.addEventListener('click', () => {full034.style.display = 'flex';});
-	full0348.addEventListener('click', () => {full034.style.display = 'none';});
+	full034.addEventListener('click', () => {full034.style.display = 'none';});
 };
 init();
 

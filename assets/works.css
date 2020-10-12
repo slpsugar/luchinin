@@ -485,108 +485,6 @@ div.nav-3 a{
     text-transform: lowercase;
 }
 
-
-
-.overlay-full{
-    display: flex;
-    position: relative;
-    width:100%;
-    max-height:100vh;
-}
-
-#full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015, #full016, #full020, #full021,
-#full022, #full024, #full025, #full026, #full030, #full031, #full032 {
-    display:none;
-    position: relative;
-    width: 100% ;
-    height: 100vh;
-    left:0;
-    top:0;
-
-    background-color:white;
-    z-index:100;
-    cursor: crosshair;
-    padding: 5rem;
-}
-
-.title-col {
-    display:grid;
-    position:relative;
-    align-content: flex-end;
-    width:50%;
-    height:100%;
-
-    color: rgb(3,45,18);
-    font-family: MBold, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-align: right;
-    text-transform: lowercase;
-    margin:0;
-    padding-right: 2rem;;
-}
-
-.description{
-    color: rgb(3,45,18);
-    font-family: Monument, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5rem;
-    text-align: right;
-    text-transform: lowercase;
-}
-
-.full-image-col {
-    display: flex;
-    position: relative;
-    justify-content: left;
-    height: 100%;
-}
-
-#full004, #full006, #full007, #full008, #full009, #full010, #full013, #full017, #full018, #full019, #full023, #full027,
-#full028, #full029
-{
-    display:none;
-    position: relative;
-    width: 100% ;
-    height: 100vh;
-    left:0;
-    top:0;
-
-    background-color:white;
-    z-index:100;
-    cursor: crosshair;
-    padding: 5rem;
-}
-
-.full-image {
-    display: flex;
-    position: relative;
-    justify-content: left;
-    align-self: flex-start;
-    width: 50%;
-    object-fit: contain;
-}
-
-.title {
-    display:block;
-    position:relative;
-    align-content: flex-start;
-    width:50%;
-    height:100%;
-
-    color: rgb(3,45,18);
-    font-family: MBold, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-align: right;
-    text-transform: lowercase;
-    margin:0;
-    padding-right: 2rem;;
-}
-
 .right-mob{
     display: none;
     position: absolute;
@@ -766,4 +664,103 @@ div.nav1 a:hover,div.nav2 a:hover {
         display: flex;
     }
     
+}
+
+.overlay-full{
+    display: flex;
+    position: relative;
+    width:100%;
+    max-height:100vh;
+}
+
+#full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015, #full016, #full020, #full021,
+#full022, #full024, #full025, #full026, #full030, #full031, #full032 {
+    display:none;
+    position: relative;
+    width: 100% ;
+    height: 100vh;
+    left:0;
+    top:0;
+
+    background-color:white;
+    z-index:100;
+    cursor: crosshair;
+    padding: 5rem;
+}
+
+.title-col {
+    display:grid;
+    position:relative;
+    align-content: flex-end;
+    width:50%;
+    height:100%;
+
+    color: rgb(3,45,18);
+    font-family: MBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+    text-transform: lowercase;
+    margin:0;
+    padding-right: 2rem;;
+}
+
+.description{
+    color: rgb(3,45,18);
+    font-family: Monument, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.full-image-col {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    height: 100%;
+}
+
+#full004, #full006, #full007, #full008, #full009, #full010, #full013, #full017, #full018, #full019, #full023, #full027,
+#full028, #full029, #full033, #full034 {
+    display:none;
+    position: relative;
+    width: 100% ;
+    height: 100vh;
+    left:0;
+    top:0;
+
+    background-color:white;
+    z-index:100;
+    cursor: crosshair;
+    padding: 5rem;
+}
+
+.full-image {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-self: flex-start;
+    width: 50%;
+    object-fit: contain;
+}
+
+.title {
+    display:block;
+    position:relative;
+    align-content: flex-start;
+    width:50%;
+    height:100%;
+
+    color: rgb(3,45,18);
+    font-family: MBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+    text-transform: lowercase;
+    margin:0;
+    padding-right: 2rem;;
 }
