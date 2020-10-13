@@ -131,13 +131,11 @@ body{
   bottom: 10vh;
 }
 
-.nav3:hover::before, .nav3:active::before{
+.nav3:hover{
   display:flex;
   align-self:flex-start;
   color:black;
-  content: "x";
-  font-size: 20px;
-  text-transform: lowercase;
+  transition: color 400ms ease-out 400ms;
 }
 
 .dropdown-content {
