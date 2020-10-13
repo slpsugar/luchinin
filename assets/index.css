@@ -135,7 +135,7 @@ body{
   display:flex;
   align-self:flex-start;
   color:black;
-  transition: color 400ms ease-out 400ms;
+  transition: color 300ms ease-out 300ms;
 }
 
 .dropdown-content {
