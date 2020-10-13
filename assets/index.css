@@ -131,13 +131,6 @@ body{
   bottom: 10vh;
 }
 
-.nav3:hover{
-  display:flex;
-  align-self:flex-start;
-  color:black;
-  transition: color 300ms ease-out 300ms;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -155,16 +148,20 @@ body{
   text-decoration: none;
 }
 
-.dropdown-content a:hover {background-color: transparent}
+.dropdown-content a:hover {background-color: transparent;}
 
 .show {
   display:flex;
   width:100vw;
 }
 
-.hide {
-  display:none;
-}
+.colour {color:black;}
+
+.hide {display:none;}
+
+.hide1 {bottom:50vh;}
+
+.hide2 {bottom:40vh;}
 
 .mdrop {
   display: flex;
