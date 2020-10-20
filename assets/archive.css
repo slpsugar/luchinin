@@ -190,10 +190,6 @@ a{
     text-transform: lowercase;
 }
 
-.full-row1 > img {
-    bottom:0;
-}
-
 .navoverlay {
     display: flex;
     position: fixed;
