@@ -32,6 +32,10 @@ function on031(){document.getElementById ("overlaymob-031").style.display="flex"
 function on032(){document.getElementById ("overlaymob-032").style.display="flex";}
 function on033(){document.getElementById ("overlaymob-033").style.display="flex";}
 function on034(){document.getElementById ("overlaymob-034").style.display="flex";}
+function on035(){document.getElementById ("overlaymob-035").style.display="flex";}
+function on036(){document.getElementById ("overlaymob-036").style.display="flex";}
+function on037(){document.getElementById ("overlaymob-037").style.display="flex";}
+function on038(){document.getElementById ("overlaymob-038").style.display="flex";}
 
 
 function off(){
@@ -69,5 +73,10 @@ function off(){
     document.getElementById("overlaymob-032").style.display="none";
     document.getElementById("overlaymob-033").style.display="none";
     document.getElementById("overlaymob-034").style.display="none";
+    document.getElementById("overlaymob-035").style.display="none";
+    document.getElementById("overlaymob-036").style.display="none";
+    document.getElementById("overlaymob-037").style.display="none";
+    document.getElementById("overlaymob-038").style.display="none";
+
 }
 
