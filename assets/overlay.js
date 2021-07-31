@@ -36,6 +36,16 @@ function on035(){document.getElementById ("overlaymob-035").style.display="flex"
 function on036(){document.getElementById ("overlaymob-036").style.display="flex";}
 function on037(){document.getElementById ("overlaymob-037").style.display="flex";}
 function on038(){document.getElementById ("overlaymob-038").style.display="flex";}
+function on039(){document.getElementById ("overlaymob-039").style.display="flex";}
+function on040(){document.getElementById ("overlaymob-040").style.display="flex";}
+function on041(){document.getElementById ("overlaymob-041").style.display="flex";}
+function on042(){document.getElementById ("overlaymob-042").style.display="flex";}
+function on043(){document.getElementById ("overlaymob-043").style.display="flex";}
+function on044(){document.getElementById ("overlaymob-044").style.display="flex";}
+function on045(){document.getElementById ("overlaymob-045").style.display="flex";}
+function on046(){document.getElementById ("overlaymob-046").style.display="flex";}
+function on047(){document.getElementById ("overlaymob-047").style.display="flex";}
+
 
 
 function off(){
@@ -77,6 +87,15 @@ function off(){
     document.getElementById("overlaymob-036").style.display="none";
     document.getElementById("overlaymob-037").style.display="none";
     document.getElementById("overlaymob-038").style.display="none";
+    document.getElementById("overlaymob-039").style.display="none";
+    document.getElementById("overlaymob-040").style.display="none";
+    document.getElementById("overlaymob-041").style.display="none";
+    document.getElementById("overlaymob-042").style.display="none";
+    document.getElementById("overlaymob-043").style.display="none";
+    document.getElementById("overlaymob-044").style.display="none";
+    document.getElementById("overlaymob-045").style.display="none";
+    document.getElementById("overlaymob-046").style.display="none";
+    document.getElementById("overlaymob-047").style.display="none";
 
 }
 
