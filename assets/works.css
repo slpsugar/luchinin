@@ -433,6 +433,69 @@ div.nav-3 a{
     transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
 }
 
+#img039{
+    position:absolute;
+    top:47rem;
+    left:16rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img040{
+    position:absolute;
+    top:24rem;
+    left:13rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img041{
+    position:absolute;
+    top:14rem;
+    left:33rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img042{
+    position:absolute;
+    top:47rem;
+    left:53rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img043{
+    position:absolute;
+    top:13rem;
+    left:13rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img044{
+    position:absolute;
+    top:17rem;
+    left:7rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img045{
+    position:absolute;
+    top:36rem;
+    left:16rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img046{
+    position:absolute;
+    top:24rem;
+    left:42rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+#img047{
+    position:absolute;
+    top:31rem;
+    left:52rem;
+    transition: opacity 0.7s cubic-bezier(.23,1,.32,1) 0s;
+}
+
 
 .image {
     display: block;
@@ -602,6 +665,70 @@ div.nav-3 a{
     z-index: 1;
 }
 
+#img039m {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 1;
+}
+
+#img040m {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+#img041m {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    z-index: 1;
+}
+
+#img042m {
+    position: absolute;
+    top: 70%;
+    left: 93%;
+    z-index: 1;
+}
+
+#img043m {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    z-index: 1;
+}
+
+#img044m {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+#img045m {
+    position: absolute;
+    top: 28%;
+    left: 83%;
+    z-index: 1;
+}
+
+#img046m {
+    position: absolute;
+    top: 4%;
+    left: 44%;
+    z-index: 1;
+}
+
+#img047m {
+    position: absolute;
+    top: 44%;
+    left: 14%;
+    z-index: 1;
+}
+
+
 
 .image-bg {
     display: flex;
@@ -708,8 +835,10 @@ div.nav1 a:hover,div.nav2 a:hover {
     max-height:100vh;
 }
 
+/* vertical */
 #full001, #full002, #full003, #full005, #full011,#full012, #full014, #full015, #full016, #full020, #full021,
-#full022, #full024, #full025, #full026, #full030, #full031, #full032, #full033, #full034, #full038 {
+#full022, #full024, #full025, #full026, #full030, #full031, #full032, #full033, #full034, #full038, #full039,
+#full040, #full044, #full045 {
     display:none;
     position: relative;
     width: 100% ;
@@ -758,8 +887,10 @@ div.nav1 a:hover,div.nav2 a:hover {
     height: 100%;
 }
 
+/* horizontal */
+
 #full004, #full006, #full007, #full008, #full009, #full010, #full013, #full017, #full018, #full019, #full023, #full027,
-#full028, #full029, #full035, #full036, #full037 {
+#full028, #full029, #full035, #full036, #full037, #full037, #full041, #full042, #full043, #full046, #full047 {
     display:none;
     position: relative;
     width: 100% ;
