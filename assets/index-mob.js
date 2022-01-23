@@ -1,6 +1,12 @@
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    document.getElementById("changecolour").classList.toggle("colour");
-    document.getElementById("hide1").classList.toggle("hide1");
-    document.getElementById("hide2").classList.toggle("hide2");
-  }
+const contactButton = document.querySelector('.contact-button');
+const links = document.querySelectorAll('.hidden-links');
+
+function showContacts() {
+  contactButton.classList.toggle('changeColour');
+  links.forEach(link => {
+    link.classList.toggle("hidden-links");
+    link.classList.toggle("changeColour");
+  });
+}
+
+contactButton.addEventListener('click', showContacts);
