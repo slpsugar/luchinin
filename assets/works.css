@@ -518,9 +518,6 @@ div.nav-3 a{
     object-fit: cover;
 }
 
-.visible {
-    opacity:1;
-}
 
 #overlay {
     position: fixed;
@@ -760,6 +757,18 @@ div.nav-3 a{
     z-index: 1;
 }
 
+#img048m {
+    position: absolute;
+    top: 24%;
+    left: 44%;
+    z-index: 1;
+}
+#img049m {
+    position: absolute;
+    top: 84%;
+    left: 4%;
+    z-index: 1;
+}
 
 .image-bg {
     display: flex;
