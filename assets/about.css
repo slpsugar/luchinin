@@ -31,14 +31,13 @@ body{
     font-style:normal;
 }
 
+
 @font-face{
-    font-family:"Mono";
-    src:url("fonts/SpaceMono-Regular.woff") format("woff"), url("fonts/SpaceMono-Regular.woff2") format("woff2");
+    font-family:"Prata";
+    src:url("fonts/Prata-Regular.woff") format("woff"), url("fonts/Prata-Regular.woff") format("woff2");
     font-weight:normal;
     font-style:normal;
 }
-
-
 
 .nav {
     display:flex;
@@ -150,7 +149,7 @@ p {
     padding: 0 26.5% 0 26.5%;
     
     color: black;
-    font-family: Mono, sans-serif;
+    font-family: Prata, sans-serif;
     font-style: normal;
     font-weight: normal;
 
