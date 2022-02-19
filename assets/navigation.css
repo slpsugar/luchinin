@@ -1,0 +1,130 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+@font-face {
+    font-family:"Monument";
+    src:url("fonts/MonumentExtended-Regular.woff") format("woff"), url("fonts/MonumentExtended-Regular.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"Prata";
+    src:url("fonts/Prata-Regular.woff") format("woff"), url("fonts/Prata-Regular.woff") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"MBold";
+    src:url("fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("fonts/MonumentExtended-Ultrabold.woff2") format("woff2");
+    font-weight:bold;
+    font-style:normal;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+i {
+    color: black;
+}
+
+html{
+    font-size: calc(10/1440*100vw);
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+
+    font-family: Monument, sans-serif;
+    font-style:normal;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+}
+
+.resp-main {
+    display: none;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:fixed;
+
+    width: 100%;
+    height: 8rem;
+    z-index: 10;
+    background-color: white;
+    top:0;
+    left:0;
+}
+  
+.nav > div {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    
+    width:100%;
+}
+  
+a{
+    display:block;
+    text-decoration: none;
+    color:inherit;
+    padding:3rem;
+    transition: color 0.3s ease-in-out;
+}
+  
+a:active,
+a:hover {
+    color:#D71A00;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor:crosshair;
+}
+  
+.active-link {
+    position:relative;
+    color:#D71A00 !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor:crosshair;
+}
+
+.nav2 {
+    display: flex;
+    position: fixed;
+    justify-content:center;
+    align-items: flex-end;
+
+    width:100%;
+    height:12vh;
+    bottom:0;
+    z-index:1;
+
+    color: #D71A00;
+    text-align: center;
+    font-size: 50px;
+    font-family: MBold, sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    background-repeat: no-repeat;
+}

@@ -1,100 +1,7 @@
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-html{
-    font-size: calc(10/1440*100vw);
-}
-
-body{
-    margin:0px;
-    padding: 0px;
-
-    font-family: Monument, sans-serif;
-    font-style:normal;
-    font-weight: normal;
-    line-height: 1;
-    letter-spacing: 1;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: none;
-}
-
-@font-face {
-    font-family:"Monument";
-    src:url("fonts/MonumentExtended-Regular.woff") format("woff"), url("fonts/MonumentExtended-Regular.woff2") format("woff2");
-    font-weight:normal;
-    font-style:normal;
-}
-  
-@font-face {
-    font-family:"MBold";
-    src:url("fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("fonts/MonumentExtended-Ultrabold.woff2") format("woff2");
-    font-weight:bold;
-    font-style:normal;
-}
-
-.nav {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    position:fixed;
-
-    width: 100%;
-    height: 8rem;
-    z-index: 10;
-    background-color: white;
-    top:0;
-    left:0;
-}
-  
-.nav > div {
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: black;
-    text-align: center;
-    font-size: 2rem;
-    
-    width:100%;
-}
-  
-a{
-    display:block;
-    text-decoration: none;
-    color:inherit;
-    padding:3rem;
-    transition: color 0.3s ease-in-out;
-}
-  
-a:active,
-a:hover {
-    color:#D71A00;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor:crosshair;
-}
-  
-.active-link {
-    position:relative;
-    color:#D71A00 !important;
-    text-transform: uppercase;
-    text-decoration: underline;
-    cursor:crosshair;
-}
-  
-  
-::-webkit-scrollbar {
-    display:none;
-}
-
 .works{
     display: flex;
     position: absolute;
     width: 100%;
-    max-height:100vh;
 }
 
 .left{
@@ -106,13 +13,13 @@ a:hover {
 .row{
     display: flex;
     position: relative;
+    justify-content: flex-end;
     flex-direction: column-reverse;
     width: 100%;
     margin-top:8rem;
     cursor:crosshair;
-
-    max-height:100vh;
-    overflow:auto;
+    max-height:100%;
+    overflow-y:scroll;
 }
   
 .row > div{
@@ -163,9 +70,10 @@ a:hover {
   
 .right{
     display: flex;
-    position: relative;
+    position: fixed;
     width: 50%;
-    
+    left:50%;
+    height: 100%;
     overflow: hidden;
     margin-top:8rem;
     padding:2rem;
