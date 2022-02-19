@@ -1,8 +1,11 @@
 const tooltips = document.querySelectorAll('.tooltip');
+const workContainers = document.querySelectorAll('.work-picture-container');
+const workDescriptions = document.querySelectorAll('.work-description');
+const responsiveWindow = window.matchMedia("(max-width: 600px)");
 
 document.addEventListener('mousemove', fn, false);
 function fn(e) {
-    for (var i=tooltips.length; i--;) {
+    for (let i=0; i<tooltips.length; i++) {
         tooltips[i].style.left = e.pageX - 50 + 'px';
         tooltips[i].style.top = e.pageY -50 + 'px';
     }
@@ -29,3 +32,18 @@ function showSlides(n, no) {
   imageCollection[slideIndex[no]-1].style.display = "block";  
 }
 
+// function changeScript(media) {
+//   if (media.matches) {
+//     document.body.style.backgroundColor = "yellow";
+
+//     // for (let container of workContainers) {
+
+//     // }
+//   } else {
+//    document.body.style.backgroundColor = "pink";
+//   }
+// }
+
+
+// changeScript(responsiveWindow);
+// responsiveWindow.addListener(changeScript); // Attach listener function on state changes

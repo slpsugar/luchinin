@@ -41,6 +41,7 @@
     color:#D71A00;
     font-size: 2rem;
     text-align: center;
+    cursor: crosshair;
 }
 
 .work-left-arrow:hover .tooltip, .work-right-arrow:hover .tooltip {
@@ -87,8 +88,15 @@
         padding-bottom: 12vh;
     }
 
-    .nav, .work-description, .work-left-arrow, .work-right-arrow  {
+    .nav, .work-left-arrow, .work-right-arrow  {
         display: none;
+    }
+
+    .work-description {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: #D71A00;
     }
 
     .resp-main {
@@ -116,14 +124,42 @@
     }
 
     .project-grid {
-        padding: 0 10% 10% 10%;
+        padding: 0 5% 5% 5%;
         display: flex;
         flex-direction: column;
+        min-height: 50%;
+    }
 
+    .project-grid + .project-grid {
+        margin-top: 20px;
     }
 
     .work-title-info {
         font-size: 20px;
+    }
+
+    .mySlides {
+        display: flex !important;
+    }
+
+    .work-picture-container {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    .work-picture-container img {
+            width: 95%
+    }
+
+    .work-picture-container img+img {
+        margin-left: 10px;
+    }
+
+    .project-grid:hover .work-description{
+        display: block;
     }
 
 }
