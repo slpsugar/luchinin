@@ -1,11 +1,14 @@
-const previousImage = document.querySelector('.work-left-arrow');
-const nextImage = document.querySelectorAll('.work-right-arrow');
-
 const tooltips = document.querySelectorAll('.tooltip');
-// previousImage.addEventListener('click', plusSlides(-1));
-// nextImage.addEventListener('click', plusSlides(1));
 
-const slideIndex = [1,1,1, 1];
+document.addEventListener('mousemove', fn, false);
+function fn(e) {
+    for (var i=tooltips.length; i--;) {
+        tooltips[i].style.left = e.pageX - 50 + 'px';
+        tooltips[i].style.top = e.pageY -50 + 'px';
+    }
+}
+
+const slideIndex = [1,1,1,1];
 const collection = ["sport", "model", "gift", "longart"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -26,21 +29,3 @@ function showSlides(n, no) {
   imageCollection[slideIndex[no]-1].style.display = "block";  
 }
 
-// tooltip
-
-
-previousImage.addEventListener('mouseover', interval)
-
-function interval() {
-  while (true) {
-      setInterval(showImage, 1);
-  }
-}
-
-function showImage() {
-
-  var x = clientX;
-  var y = clientY;
-  tooltips.style.left = x;
-  tooltips.style.top = y;
-}

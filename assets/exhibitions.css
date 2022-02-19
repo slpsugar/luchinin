@@ -36,13 +36,16 @@
 
 .tooltip {
     display: none;
-    position: relative;
+    position: absolute;
     font-family: "MBold";
     color:#D71A00;
     font-size: 2rem;
     text-align: center;
 }
 
+.work-left-arrow:hover .tooltip, .work-right-arrow:hover .tooltip {
+    display: block;
+}
 
 .work-picture-container {
     display: flex;
