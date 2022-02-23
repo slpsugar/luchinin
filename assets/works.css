@@ -36,7 +36,7 @@
     margin-block-end: 0;
 }
   
-.col-1{
+.number{
     display:flex;
     position: relative;
     align-items: flex-end;
@@ -60,7 +60,7 @@
     transition: color 0.1s ease-in-out;
 }
 
-.col-5{
+.year{
     display: flex;
     position: relative;
     align-items: flex-end;
@@ -118,22 +118,10 @@
     position: relative;
     justify-content: left;
     align-self: flex-end;
-    /* width: 50%; */
     height:100%;
     object-fit: contain;
     bottom:0;
     margin-left: 15px;
-}
-
-.title {
-    color: rgb(3,45,18);
-    font-family: MBold, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: right;
-    text-transform: lowercase;
-    margin-bottom: 0;
 }
 
 .description{
@@ -179,7 +167,7 @@
 
 }
 
-.nav-mob {
+.nav2, .navoverlay {
     display: none;
     position: fixed;
 }
@@ -187,85 +175,6 @@
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-.nav1 {
-    display: flex;
-    position: fixed;
-
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height:10vh;
-    top:40vh;
-
-    color: rgba(219,255,0,1);
-    text-align: center;
-    font-size: 40px;
-    font-family: Monument, sans-serif;
-    font-style:normal;
-    font-weight: normal;
-    line-height: 1;
-    letter-spacing: 1;
-    text-decoration: none;
-    background-repeat:no-repeat;
-    border: none;
-    background-color: transparent;
-    text-transform: uppercase;
-
-    opacity: 0;
-    animation: fadeIn ease-out 3000ms;
-    animation-delay: 2000ms;
-    animation-fill-mode: forwards;
-}
-
-.nav2 {
-    display: flex;
-    position: fixed;
-    justify-content:center;
-    align-items: flex-end;
-
-    width:100%;
-    height:10vh;
-    bottom:0;
-    z-index:10;
-
-    color:rgba(219,255,0,1);
-    text-align: center;
-    font-size: 50px;
-    font-family: MBold, sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    background-repeat: no-repeat;
-}
-
-div.nav1 a:hover,div.nav2 a:hover {
-    color: rgba(219,255,0,1);
-    cursor:crosshair;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-@media (max-width:600px) {
-   
-    .nav-mob {
-        display: grid;
-        position: fixed;
-        z-index:50;
-    }
-    
-    .nav, .left, .right, .overlay-full {
-        display: none;
-    }
-
-    .right-mob {
-        display: flex;
-    }
-    
 }
 
 .overlay-full{
@@ -290,7 +199,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     padding: 5rem;
 }
 
-.title-col {
+.overlay-title {
     display:grid;
     position:relative;
     align-content: flex-end;
@@ -318,7 +227,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     text-transform: lowercase;
 }
 
-.full-image-col {
+.full-image {
     display: flex;
     position: relative;
     justify-content: left;
@@ -327,51 +236,7 @@ div.nav1 a:hover,div.nav2 a:hover {
     object-fit: fill;
 }
 
-
-/* horizontal */
-.horizontal-image {
-    display:none;
-    position: fixed;
-    width: 100% ;
-    height: 100vh;
-    left:0;
-    top:0;
-
-    background-color:white;
-    z-index:100;
-    cursor: crosshair;
-    padding: 5rem;
-}
-
-.full-image {
-    display: flex;
-    position: relative;
-    justify-content: left;
-    align-self: flex-start;
-    width: 50%;
-    object-fit: scale-down;
-}
-
-.title {
-    display:block;
-    position:relative;
-    align-content: flex-start;
-    width:50%;
-    height:100%;
-
-    color: rgb(3,45,18);
-    font-family: MBold, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-align: right;
-    text-transform: lowercase;
-    margin:0;
-    padding-right: 2rem;;
-}
-
 /* in parts*/
-
 .parts {
     width: 70%;
     object-fit: scale-down;
@@ -381,4 +246,140 @@ div.nav1 a:hover,div.nav2 a:hover {
     padding: 5rem;
 }
 
+@media (max-width:600px) {
+   
+    .nav2 {
+        display: flex;
+    }
+    
+    .nav, .number, .year {
+        display: none;
+    }
 
+    .works {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-bottom:12vh;
+    }
+
+    .left {
+        width: 85%;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        width: 15%;
+        left: 0;
+        padding: 0;
+        overflow: auto;
+        height: auto;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+      
+    .row > div{
+        display: flex;
+        height: 50px;
+    }
+      
+    .row p {
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .col-2{
+        justify-content: flex-end;
+        padding: 0px 5px 0px 15px;
+        width: 100%;
+    }
+    
+    .image-block {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .image-preview {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay-full {
+        padding: 5%;
+    }
+
+    /* image position */
+    .vertical-image {
+        display:none;
+        position: fixed;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100vh;
+        padding: 5%;
+    }
+
+    .full-image, .parts {
+        width: 100%;
+        height: 60vh;
+        object-fit: scale-down;
+        padding: 0;
+    }
+
+    .overlay-title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding: 5% 0 0 0;
+        color: rgb(3,45,18);
+        font-family: MBold, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+        text-transform: lowercase;
+    }
+
+    .description{
+        color: rgb(3,45,18);
+        font-family: Monument, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        text-align: left;
+        text-transform: lowercase;
+    }
+
+    .navoverlay {
+        display: hidden;
+        position: fixed;
+        justify-content:center;
+        align-items: center;
+    
+        width:100%;
+        height:12vh;
+        bottom:0;
+        left:0;
+        z-index:1;
+    
+        color: rgb(3,45,18);
+        text-align: center;
+        font-size: 50px;
+        font-family: MBold, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+}

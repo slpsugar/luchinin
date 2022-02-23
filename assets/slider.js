@@ -31,19 +31,3 @@ function showSlides(n, no) {
   }
   imageCollection[slideIndex[no]-1].style.display = "block";  
 }
-
-// function changeScript(media) {
-//   if (media.matches) {
-//     document.body.style.backgroundColor = "yellow";
-
-//     // for (let container of workContainers) {
-
-//     // }
-//   } else {
-//    document.body.style.backgroundColor = "pink";
-//   }
-// }
-
-
-// changeScript(responsiveWindow);
-// responsiveWindow.addListener(changeScript); // Attach listener function on state changes
