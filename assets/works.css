@@ -1,7 +1,8 @@
 .works{
     display: flex;
-    position: absolute;
+    position: relative;
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 .left{
@@ -52,11 +53,11 @@
     width: 70%;
 }
 
-.col-2 p:hover,
-.col-2 p:active{
+.work-info-row:hover p,
+.work-info-row:active p{
     color:#D71A00;
-    text-decoration: none;
-    cursor: crosshair;
+    text-decoration:underline;
+    cursor: pointer;
     transition: color 0.1s ease-in-out;
 }
 

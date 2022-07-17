@@ -152,12 +152,6 @@ a{
   }
 
   .bg-image{
-    position: fixed;
-    height: 979px;
-    width: 677px;
-    left: -209px;
-    top: -111px;
-    background-size: contain;
     z-index: -1;
   }
 

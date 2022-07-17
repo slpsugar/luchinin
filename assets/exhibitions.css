@@ -21,8 +21,12 @@
     display: none;
 }
 
-.work-left-arrow {grid-area: 1 / 2 / 5 / 3; }
-.work-right-arrow { grid-area: 1 / 6 / 3 / 7; }
+.work-left-arrow {grid-area: 1 / 2 / 1 / 3; }
+.work-right-arrow { grid-area: 1 / 6 / 1 / 7; }
+
+.work-left-arrow:hover i, .work-right-arrow:hover i{
+    color: #D71A00;
+}
 
 .prev, .next {
     display: flex;
