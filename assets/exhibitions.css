@@ -84,6 +84,9 @@
     justify-content: flex-start;
 }
 
+.mobile-only {
+    display: none;
+}
 
 /* mobile */
 
@@ -91,6 +94,12 @@
 
     .section {
         padding-bottom: 12vh;
+    }
+
+    .mobile-only {
+        display: flex;
+        color: #D71A00;
+        text-decoration: overline;
     }
 
     .nav, .work-left-arrow, .work-right-arrow, .work-description {
