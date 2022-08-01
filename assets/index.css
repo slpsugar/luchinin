@@ -196,6 +196,11 @@ a{
   }
   
   .changeColour {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .darkened {
     color: black;
   }
   
@@ -213,7 +218,7 @@ a{
     height:10vh;
     width:100vw;
     
-    color: rgba(219,255,0,1);
+    color: white;
     text-align: center;
     font-size: 50px;
     font-family: MBold, sans-serif;

@@ -367,15 +367,15 @@
         display: hidden;
         position: fixed;
         justify-content:center;
-        align-items: center;
-    
+        align-items: flex-end;
+        padding: 3rem;
         width:100%;
         height:12vh;
         bottom:0;
         left:0;
         z-index:1;
     
-        color: rgb(3,45,18);
+        color: rgb(215, 26, 0);
         text-align: center;
         font-size: 50px;
         font-family: MBold, sans-serif;
