@@ -237,6 +237,32 @@
     object-fit: fill;
 }
 
+.section-half {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.full-image-series {
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-self: flex-start;
+    height: 90%;
+    object-fit: fill;
+}
+
+.series-description{
+    color:rgb(215, 26, 0);
+    font-family: Monument, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: left;
+    text-transform: lowercase;
+    padding-bottom: 0.5rem;
+}
+
 /* in parts*/
 .parts {
     width: 70%;
@@ -383,4 +409,23 @@
         text-transform: uppercase;
     }
 
+    .full-image-series {
+        display: flex;
+        position: relative;
+        justify-content: left;
+        align-self: flex-start;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .series-description{
+        color:rgb(215, 26, 0);
+        font-family: Monument, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        text-align: left;
+        text-transform: lowercase;
+        padding-bottom: 10px;
+    }
 }
