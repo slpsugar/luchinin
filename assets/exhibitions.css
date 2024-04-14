@@ -1,7 +1,7 @@
 .section {
     display: flex;
     position: absolute;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-wrap: nowrap;
     width: 100%;
     font-family:"Prata";
@@ -84,8 +84,13 @@
     justify-content: flex-start;
 }
 
+
 .mobile-only {
     display: none;
+}
+
+.ext-link :hover {
+    color:#D71A00;
 }
 
 /* mobile */
